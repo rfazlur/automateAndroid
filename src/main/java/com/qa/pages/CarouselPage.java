@@ -1,4 +1,6 @@
 package com.qa.pages;
 
-public class CarouselPage {
+import com.qa.base.TestBase;
+
+public class CarouselPage extends TestBase {
 }
