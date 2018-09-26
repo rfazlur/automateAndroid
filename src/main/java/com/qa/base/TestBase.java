@@ -43,7 +43,7 @@ public class TestBase {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("deviceName", device);
         caps.setCapability("platformName", platform);
-        caps.setCapability("app", cwd+"/src/app/260.apk");
+        caps.setCapability("app", cwd+"/src/app/fdn_dev.apk");
 
         driver = new AndroidDriver(new URL("http://"+serverLoc+":"+portNumber+"/wd/hub"), caps);
 
