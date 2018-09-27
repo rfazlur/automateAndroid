@@ -37,7 +37,6 @@ public class LoginTest extends TestBase {
         homepage = loginpage.loginProcess(
                 prop.getProperty("username"),
                 prop.getProperty("password"));
-
     }
 
 }
