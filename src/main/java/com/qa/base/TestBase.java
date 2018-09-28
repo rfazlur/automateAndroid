@@ -23,7 +23,7 @@ public class TestBase {
     public TestBase(){
         try{
             prop = new Properties();
-            FileInputStream ip = new FileInputStream(cwd+"/src/main/java/com/fdn"
+            FileInputStream ip = new FileInputStream(cwd+"/src/main/java/com"
                     + "/qa/config/config.properties");
             prop.load(ip);
         } catch (FileNotFoundException e) {

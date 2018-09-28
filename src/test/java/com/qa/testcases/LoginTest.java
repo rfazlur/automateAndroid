@@ -1,10 +1,7 @@
 package com.qa.testcases;
 
 import com.qa.base.TestBase;
-import com.qa.pages.CarouselPage;
-import com.qa.pages.HomePage;
-import com.qa.pages.LoginPage;
-import com.qa.pages.ProfilePage;
+import com.qa.pages.*;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -17,6 +14,7 @@ public class LoginTest extends TestBase {
     LoginPage loginpage;
     HomePage homepage;
     ProfilePage profilepage;
+    SettingsPage settingspage;
 
     public LoginTest(){
         super();
@@ -42,6 +40,8 @@ public class LoginTest extends TestBase {
         homepage.clickRateCloseBtn();
         homepage.clickHomeBtn();
         profilepage = homepage.clickProfileBtn();
+        settingspage = profilepage.clickSettingsBtn();
+        settingspage.clickLogoutBtn();
     }
 
 }
