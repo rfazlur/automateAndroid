@@ -2,6 +2,7 @@ package com.qa.testcases;
 
 import com.qa.base.TestBase;
 import com.qa.pages.*;
+import com.qa.util.Assertions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -10,11 +11,9 @@ import java.net.MalformedURLException;
 
 public class LoginTest extends TestBase {
 
-    CarouselPage carouselpage;
+    OnBoardingPage onboardingpage;
     LoginPage loginpage;
-    HomePage homepage;
-    ProfilePage profilepage;
-    SettingsPage settingspage;
+    Assertions assertions;
 
     public LoginTest(){
         super();
@@ -23,7 +22,9 @@ public class LoginTest extends TestBase {
     @BeforeMethod
     public void setUp() throws MalformedURLException {
         initialization();
-        carouselpage = new CarouselPage();
+        onboardingpage = new OnBoardingPage();
+        assertions = new Assertions();
+        loginpage = new LoginPage();
     }
 
     @AfterMethod
@@ -33,15 +34,10 @@ public class LoginTest extends TestBase {
 
     @Test
     public void loginValid(){
-        loginpage = carouselpage.clickBtnLogin();
-        homepage = loginpage.loginProcess(
-                prop.getProperty("username"),
-                prop.getProperty("password"));
-        homepage.clickRateCloseBtn();
-        homepage.clickHomeBtn();
-        profilepage = homepage.clickProfileBtn();
-        settingspage = profilepage.clickSettingsBtn();
-        settingspage.clickLogoutBtn();
+        onboardingpage.clickBtnLogin();
+        loginpage.inputUsername(prop.getProperty("username"));
+        loginpage.inputPassword(prop.getProperty("password"));
+        loginpage.hideKeyboard();
+        loginpage.tapBtnLogin();
     }
-
 }

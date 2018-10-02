@@ -21,12 +21,22 @@ public class LoginPage extends TestBase {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    public HomePage loginProcess(String uname, String pwd){
+    public void inputUsername(String uname){
         textFieldUsername.sendKeys(uname);
-        textFieldPassword.sendKeys(pwd);
+        return;
+    }
+
+    public void inputPassword(String passwd){
+        textFieldPassword.sendKeys(passwd);
+        return;
+    }
+
+    public void hideKeyboard(){
         driver.hideKeyboard();
+    }
+
+    public void tapBtnLogin(){
         btnLogin.click();
-        return new HomePage();
     }
 
 }
