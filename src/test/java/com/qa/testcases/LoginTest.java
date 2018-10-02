@@ -34,10 +34,12 @@ public class LoginTest extends TestBase {
 
     @Test
     public void loginValid(){
+        assertions.waitForAgreementText();
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("username"));
         loginpage.inputPassword(prop.getProperty("password"));
         loginpage.hideKeyboard();
         loginpage.tapBtnLogin();
+        assertions.waitForCloseBtnAppRate();
     }
 }

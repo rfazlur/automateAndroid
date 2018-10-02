@@ -23,11 +23,13 @@ public class LoginPage extends TestBase {
 
     public void inputUsername(String uname){
         textFieldUsername.sendKeys(uname);
+        System.out.println("Input Username");
         return;
     }
 
     public void inputPassword(String passwd){
         textFieldPassword.sendKeys(passwd);
+        System.out.println("Input Password");
         return;
     }
 
@@ -37,6 +39,8 @@ public class LoginPage extends TestBase {
 
     public void tapBtnLogin(){
         btnLogin.click();
+        System.out.println("Tap Button Login");
+        return;
     }
 
 }
