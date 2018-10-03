@@ -6,7 +6,10 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage extends TestBase {
+public class SignUpPage extends TestBase {
+
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/edt_email")
+    MobileElement txtEmail;
 
     @AndroidFindBy(id = "com.fdbr.android.debug:id/edt_username")
     MobileElement txtUsername;
@@ -14,32 +17,35 @@ public class LoginPage extends TestBase {
     @AndroidFindBy(id = "com.fdbr.android.debug:id/edt_password")
     MobileElement txtPassword;
 
-    @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_signin")
-    MobileElement btnLogin;
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_register")
+    MobileElement btnContinue;
 
-    public LoginPage(){
+    public SignUpPage(){
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+    }
+
+    public void inputEmail(String email){
+        txtEmail.sendKeys(email);
+        return;
     }
 
     public void inputUsername(String uname){
         txtUsername.sendKeys(uname);
-        System.out.println("Input Username");
         return;
     }
 
     public void inputPassword(String passwd){
         txtPassword.sendKeys(passwd);
-        System.out.println("Input Password");
         return;
     }
 
     public void hideKeyboard(){
         driver.hideKeyboard();
+        return;
     }
 
-    public void tapBtnLogin(){
-        btnLogin.click();
-        System.out.println("Tap Button Login");
+    public void tapContinueButton(){
+        btnContinue.click();
         return;
     }
 

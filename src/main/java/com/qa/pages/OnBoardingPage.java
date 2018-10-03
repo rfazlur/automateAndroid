@@ -18,17 +18,13 @@ public class OnBoardingPage extends TestBase {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    /*public LoginPage clickBtnLogin(){
+    public void clickBtnLogin(){
         btnLogin.click();
-        return new LoginPage();
+        return;
     }
 
     public void clickBtnSignUp(){
         btnSignUp.click();
-    }*/
-
-    public void clickBtnLogin(){
-        btnLogin.click();
         return;
     }
 

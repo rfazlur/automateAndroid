@@ -8,6 +8,11 @@
                     <include name="loginValid" />
                 </methods>
             </class>
+            <class name="com.qa.testcases.SignUpTest">
+                <methods>
+                    <include name="registerNewUser" />
+                </methods>
+            </class>
         </classes>
     </test> <!-- automateAndroid -->
 </suite> <!-- Default Suite -->
