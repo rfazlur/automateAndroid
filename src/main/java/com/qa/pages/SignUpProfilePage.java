@@ -18,6 +18,9 @@ public class SignUpProfilePage extends TestBase {
     @AndroidFindBy(id = "com.fdbr.android.debug:id/met_location")
     MobileElement txtLocation;
 
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/fl_next")
+    MobileElement btnNext;
+
     public SignUpProfilePage(){
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
@@ -32,6 +35,10 @@ public class SignUpProfilePage extends TestBase {
 
     public void clickLocation(){
         txtLocation.click();
+    }
+
+    public void clickBtnNext(){
+        btnNext.click();
     }
 
 }
