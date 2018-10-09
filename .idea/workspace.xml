@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ed826bf-38a3-4086-9df9-a3e821343611" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/pages/HairPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/pages/HairPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/pages/SkinPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/pages/SkinPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/util/Assertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/util/Assertions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/HairPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/HairPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/SkinPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/SkinPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/SkinPageV2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/Assertions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/util/Assertions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/RandomSelect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/RandomSkinType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/AddReviewTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/SignUpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/SignUpTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,15 +59,16 @@
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.74" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="5" />
-          <entry key="java" value="113" />
+          <entry key="class" value="7" />
+          <entry key="java" value="116" />
           <entry key="kt" value="1" />
           <entry key="properties" value="2" />
           <entry key="xml" value="7" />
@@ -87,8 +76,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="113" />
+          <entry key="CLASS" value="7" />
+          <entry key="JAVA" value="116" />
           <entry key="Kotlin" value="1" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="7" />
@@ -96,13 +85,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9371" />
+          <entry key="java" value="9742" />
           <entry key="xml" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9371" />
+          <entry key="JAVA" value="9742" />
           <entry key="XML" value="38" />
         </counts>
       </usages-collector>
@@ -110,14 +99,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="103" column="40" lean-forward="true" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
+            <state relative-caret-position="750">
+              <caret line="109" column="76" selection-start-line="109" selection-start-column="76" selection-end-line="109" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/github/javafaker/javafaker/0.16/javafaker-0.16.jar!/com/github/javafaker/Faker.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="237" column="14" selection-start-line="237" selection-start-column="14" selection-end-line="237" selection-end-column="14" />
+              <folding>
+                <element signature="e#7738#7739#0" expanded="true" />
+                <element signature="e#7770#7771#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/github/javafaker/javafaker/0.16/javafaker-0.16.jar!/com/github/javafaker/Name.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SignUpPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+              <folding>
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SignUpProfilePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -169,11 +220,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/SkinPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/SkinConcernsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/HairPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/Assertions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/BodyConcernsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/HairConcernsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/SignUpProfilePage.java" />
       </list>
     </option>
   </component>
@@ -309,7 +361,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538834399407" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539080327125" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -494,8 +546,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23959444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24226254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -538,13 +591,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/HomePage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/AddReviewTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/DOBPage.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -627,16 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SignUpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#797#798#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SkinPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -707,12 +743,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/javafaker/javafaker/0.16/javafaker-0.16.jar!/com/github/javafaker/Faker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="237" column="14" selection-start-line="237" selection-start-column="14" selection-end-line="237" selection-end-column="14" />
+          <folding>
+            <element signature="e#7738#7739#0" expanded="true" />
+            <element signature="e#7770#7771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/javafaker/javafaker/0.16/javafaker-0.16.jar!/com/github/javafaker/Name.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SignUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding>
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="103" column="40" lean-forward="true" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
+        <state relative-caret-position="750">
+          <caret line="109" column="76" selection-start-line="109" selection-start-column="76" selection-end-line="109" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SignUpProfilePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
           </folding>
         </state>
       </provider>

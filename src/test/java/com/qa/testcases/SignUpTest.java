@@ -22,6 +22,7 @@ public class SignUpTest extends TestBase {
     SkinConcernsPage skinconcernspage;
     BodyConcernsPage bodyconcernspage;
     HairConcernsPage hairconcernspage;
+    SignUpProfilePage signupprofilepage;
 
     public SignUpTest(){
         super();
@@ -40,6 +41,7 @@ public class SignUpTest extends TestBase {
         skinconcernspage = new SkinConcernsPage();
         hairconcernspage = new HairConcernsPage();
         bodyconcernspage = new BodyConcernsPage();
+        signupprofilepage = new SignUpProfilePage();
     }
 
     @AfterMethod
@@ -102,5 +104,12 @@ public class SignUpTest extends TestBase {
         hairconcernspage.selectHairConcerns();
         assertions.waitForNextButtonHairConcerns();
         hairconcernspage.clickBtnNext();
+
+        //fill sign up profile
+        signupprofilepage.inputFullName(faker.name().fullName());
+        signupprofilepage.clickLocation();
+        signupprofilepage.inputPhoneNumber(faker.phoneNumber().cellPhone());
+
+        //select location
     }
 }
