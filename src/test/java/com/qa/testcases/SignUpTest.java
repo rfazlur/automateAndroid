@@ -2,10 +2,7 @@ package com.qa.testcases;
 
 import com.github.javafaker.Faker;
 import com.qa.base.TestBase;
-import com.qa.pages.DOBPage;
-import com.qa.pages.OnBoardingPage;
-import com.qa.pages.SignUpPage;
-import com.qa.pages.SkinPage;
+import com.qa.pages.*;
 import com.qa.util.Assertions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -21,6 +18,10 @@ public class SignUpTest extends TestBase {
     OnBoardingPage onboardingpage;
     DOBPage dobpage;
     SkinPage skinpage;
+    HairPage hairpage;
+    SkinConcernsPage skinconcernspage;
+    BodyConcernsPage bodyconcernspage;
+    HairConcernsPage hairconcernspage;
 
     public SignUpTest(){
         super();
@@ -35,6 +36,10 @@ public class SignUpTest extends TestBase {
         onboardingpage = new OnBoardingPage();
         dobpage = new DOBPage();
         skinpage = new SkinPage();
+        hairpage = new HairPage();
+        skinconcernspage = new SkinConcernsPage();
+        hairconcernspage = new HairConcernsPage();
+        bodyconcernspage = new BodyConcernsPage();
     }
 
     @AfterMethod
@@ -45,21 +50,22 @@ public class SignUpTest extends TestBase {
     @Test
     public void registerNewUser(){
         assertions.waitForAgreementText();
-
         onboardingpage.clickBtnSignUp();
 
+        //register new user
         signuppage.inputEmail(faker.internet().safeEmailAddress());
         signuppage.inputUsername(faker.internet().slug());
         signuppage.inputPassword(faker.internet().password());
         signuppage.hideKeyboard();
         signuppage.tapContinueButton();
 
+        //input DOB
         assertions.waitForFieldDOB();
-
         dobpage.tapDOBField();
         dobpage.tapOKButton();
         dobpage.tapNextButton();
 
+        //set skin
         assertions.waitForSkinTypeOptions();
         skinpage.selectSkinType();
         assertions.waitForSkinToneOptions();
@@ -68,5 +74,33 @@ public class SignUpTest extends TestBase {
         skinpage.selectSkinUndertone();
         assertions.waitForNextButtonSkinType();
         skinpage.tapNextButton();
+
+        //set hair and hijab
+        assertions.waitForHairTypeOptions();
+        hairpage.selectHairType();
+        assertions.waitForColoredHairOptions();
+        hairpage.selectColoredHair();
+        assertions.waitForHijaberptions();
+        hairpage.selectHijab();
+        assertions.waitForNextButtonHairType();
+        hairpage.tapNextButton();
+
+        //set skin concern
+        assertions.waitForSkinConcernOptions();
+        skinconcernspage.selectSkinConcerns();
+        assertions.waitForNextButtonSkinConcerns();
+        skinconcernspage.clickBtnNext();
+
+        //set body concern
+        assertions.waitForBodyConcernOptions();
+        bodyconcernspage.selectBodyConcerns();
+        assertions.waitForNextButtonBodyConcerns();
+        bodyconcernspage.clickBtnNext();
+
+        //set hair concern
+        assertions.waitForHairConcernOptions();
+        hairconcernspage.selectHairConcerns();
+        assertions.waitForNextButtonHairConcerns();
+        hairconcernspage.clickBtnNext();
     }
 }

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Assertions extends TestBase {
 
-    WebDriverWait wait;
+    private WebDriverWait wait;
 
     public Assertions(){
         super();
@@ -44,6 +44,56 @@ public class Assertions extends TestBase {
     }
 
     public void waitForNextButtonSkinType(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/fl_next")));
+    }
+
+    public void waitForHairTypeOptions(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/ll_hair_types")));
+    }
+
+    public void waitForColoredHairOptions(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/ll_hair_colors")));
+    }
+
+    public void waitForHijaberptions(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/ll_hijabs")));
+    }
+
+    public void waitForNextButtonHairType(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/tv_next")));
+    }
+
+    public void waitForSkinConcernOptions(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/rv_skin_concerns")));
+    }
+
+    public void waitForNextButtonSkinConcerns(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/fl_next")));
+    }
+
+    public void waitForBodyConcernOptions(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/rv_body_concerns")));
+    }
+
+    public void waitForNextButtonBodyConcerns(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/fl_next")));
+    }
+
+    public void waitForHairConcernOptions(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/rv_hair_concerns")));
+    }
+
+    public void waitForNextButtonHairConcerns(){
         wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/fl_next")));
     }

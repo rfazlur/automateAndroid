@@ -23,8 +23,8 @@ public class LoginTest extends TestBase {
     public void setUp() throws MalformedURLException {
         initialization();
         onboardingpage = new OnBoardingPage();
-        assertions = new Assertions();
         loginpage = new LoginPage();
+        assertions = new Assertions();
     }
 
     @AfterMethod
