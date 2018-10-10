@@ -41,4 +41,8 @@ public class SignUpProfilePage extends TestBase {
         btnNext.click();
     }
 
+    public void hideKeyboard(){
+        driver.hideKeyboard();
+    }
+
 }

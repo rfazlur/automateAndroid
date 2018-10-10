@@ -6,20 +6,17 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 
-import java.util.List;
-import java.util.Random;
+public class FindFriendPage extends TestBase {
 
-public class LocationPage extends TestBase {
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/toolbar_action_button_text")
+    MobileElement btnSkip;
 
-    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Bandung']")
-    MobileElement locBandung;
-
-    public LocationPage(){
+    public FindFriendPage(){
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    public void selectLocation(){
-        locBandung.click();
+    public void clickBtnSkip(){
+        btnSkip.click();
     }
 
 }

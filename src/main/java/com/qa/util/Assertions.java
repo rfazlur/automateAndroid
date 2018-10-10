@@ -97,4 +97,24 @@ public class Assertions extends TestBase {
         wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/fl_next")));
     }
+
+    public void waitForLocationList(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/recycler_view")));
+    }
+
+    public void waitForFieldPhoneNumber(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/met_phone_number")));
+    }
+
+    public void waitForSkipButton(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/toolbar_action_button_text")));
+    }
+
+    public void waitForStartBeautyJourneyButton(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/fl_btn")));
+    }
 }

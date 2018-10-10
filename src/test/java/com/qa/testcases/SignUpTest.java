@@ -24,6 +24,7 @@ public class SignUpTest extends TestBase {
     HairConcernsPage hairconcernspage;
     SignUpProfilePage signupprofilepage;
     LocationPage locationpage;
+    FindFriendPage findfriendpage;
 
     public SignUpTest(){
         super();
@@ -44,6 +45,7 @@ public class SignUpTest extends TestBase {
         bodyconcernspage = new BodyConcernsPage();
         signupprofilepage = new SignUpProfilePage();
         locationpage = new LocationPage();
+        findfriendpage = new FindFriendPage();
     }
 
     @AfterMethod
@@ -109,9 +111,18 @@ public class SignUpTest extends TestBase {
 
         //fill sign up profile
         signupprofilepage.inputFullName(faker.name().fullName());
+        signupprofilepage.hideKeyboard();
         signupprofilepage.clickLocation();
+        assertions.waitForLocationList();
         locationpage.selectLocation();
+        assertions.waitForFieldPhoneNumber();
         signupprofilepage.inputPhoneNumber(faker.phoneNumber().cellPhone());
+        signupprofilepage.hideKeyboard();
         signupprofilepage.clickBtnNext();
+
+        //skip find friend
+        assertions.waitForSkipButton();
+        findfriendpage.clickBtnSkip();
+        assertions.waitForStartBeautyJourneyButton();
     }
 }
