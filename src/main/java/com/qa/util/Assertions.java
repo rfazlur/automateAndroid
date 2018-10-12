@@ -117,4 +117,19 @@ public class Assertions extends TestBase {
         wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/fl_btn")));
     }
+
+    public void waitForListPopularProduct(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("com.fdbr.android.debug:id/txt_product")));
+    }
+
+    public void waitForAddReviewButton(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("com.fdbr.android.debug:id/ll_add_review")));
+    }
+
+    public void waitForRateBar(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("com.fdbr.android.debug:id/rate_overall")));
+    }
 }

@@ -3,7 +3,7 @@
 <suite name="Default Suite">
     <test name="automateAndroid">
         <classes>
-            <class name="com.qa.testcases.LoginTest">
+            <!--<class name="com.qa.testcases.LoginTest">
                 <methods>
                     <include name="loginValid" />
                 </methods>
@@ -11,6 +11,11 @@
             <class name="com.qa.testcases.SignUpTest">
                 <methods>
                     <include name="registerNewUser" />
+                </methods>
+            </class>-->
+            <class name="com.qa.testcases.AddReviewTest">
+                <methods>
+                    <include name="addReviewAfterLogin" />
                 </methods>
             </class>
         </classes>

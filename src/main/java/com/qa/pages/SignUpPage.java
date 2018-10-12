@@ -26,27 +26,22 @@ public class SignUpPage extends TestBase {
 
     public void inputEmail(String email){
         txtEmail.sendKeys(email);
-        return;
     }
 
     public void inputUsername(String uname){
         txtUsername.sendKeys(uname);
-        return;
     }
 
     public void inputPassword(String passwd){
         txtPassword.sendKeys(passwd);
-        return;
     }
 
     public void hideKeyboard(){
         driver.hideKeyboard();
-        return;
     }
 
     public void tapContinueButton(){
         btnContinue.click();
-        return;
     }
 
 }

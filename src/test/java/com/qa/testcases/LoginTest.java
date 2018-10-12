@@ -14,6 +14,7 @@ public class LoginTest extends TestBase {
     OnBoardingPage onboardingpage;
     LoginPage loginpage;
     Assertions assertions;
+    HomePage homepage;
 
     public LoginTest(){
         super();
@@ -25,6 +26,7 @@ public class LoginTest extends TestBase {
         onboardingpage = new OnBoardingPage();
         loginpage = new LoginPage();
         assertions = new Assertions();
+        homepage = new HomePage();
     }
 
     @AfterMethod
@@ -41,5 +43,7 @@ public class LoginTest extends TestBase {
         loginpage.hideKeyboard();
         loginpage.tapBtnLogin();
         assertions.waitForCloseBtnAppRate();
+        homepage.clickBtnCloseRate();
+        homepage.dismissToolTip();
     }
 }
