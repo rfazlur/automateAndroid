@@ -3,7 +3,7 @@
 <suite name="Default Suite">
     <test name="automateAndroid">
         <classes>
-            <!--<class name="com.qa.testcases.LoginTest">
+            <class name="com.qa.testcases.LoginTest">
                 <methods>
                     <include name="loginValid" />
                 </methods>
@@ -12,12 +12,22 @@
                 <methods>
                     <include name="registerNewUser" />
                 </methods>
-            </class>-->
-            <!--<class name="com.qa.testcases.AddReviewTest">
+            </class>
+            <class name="com.qa.testcases.AddReviewTest">
+                <methods>
+                    <include name="addReviewAfterSignUp" />
+                </methods>
+            </class>
+            <class name="com.qa.testcases.AddReviewTest">
                 <methods>
                     <include name="addReviewAfterLogin" />
                 </methods>
-            </class>-->
+            </class>
+            <class name="com.qa.testcases.AddReviewTest">
+                <methods>
+                    <include name="addReviewFromPlusButtonAfterSignUp" />
+                </methods>
+            </class>
             <class name="com.qa.testcases.AddReviewTest">
                 <methods>
                     <include name="addReviewFromPlusButtonAfterLogin" />
