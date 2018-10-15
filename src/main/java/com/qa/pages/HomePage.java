@@ -10,21 +10,18 @@ public class HomePage extends TestBase {
 
     @AndroidFindBy(id = "com.fdbr.android.debug:id/fl_btn")
     MobileElement btnStartJourney;
-
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Home']")
     MobileElement btnHome;
-
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Lihat produk yang cocok dengan Beauty ID mu']")
     MobileElement tipProductMatches1;
-
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Klik untuk melihat lebih banyak produk']")
     MobileElement tipProductMatches2;
-
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Category']")
     MobileElement btnCategory;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/img_close")
     MobileElement btnCloseRate;
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/fab")
+    MobileElement btnPlus;
 
     public HomePage(){
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
@@ -48,5 +45,9 @@ public class HomePage extends TestBase {
 
     public void clickBtnCloseRate(){
         btnCloseRate.click();
+    }
+
+    public void clickBtnPlus(){
+        btnPlus.click();
     }
 }

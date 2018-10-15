@@ -12,25 +12,26 @@ import java.net.MalformedURLException;
 
 public class AddReviewTest extends TestBase {
 
-    HomePage homepage;
-    SignUpTest signuptest;
-    ProductCategoryPage productcategorypage;
-    Assertions assertions;
-    ProductDetailPage productdetailpage;
-    ReviewFormPage reviewformpage;
-    SignUpPage signuppage;
-    Faker faker;
-    OnBoardingPage onboardingpage;
-    DOBPage dobpage;
-    SkinPage skinpage;
-    HairPage hairpage;
-    SkinConcernsPage skinconcernspage;
-    BodyConcernsPage bodyconcernspage;
-    HairConcernsPage hairconcernspage;
-    SignUpProfilePage signupprofilepage;
-    LocationPage locationpage;
-    FindFriendPage findfriendpage;
-    LoginPage loginpage;
+    private HomePage homepage;
+    private ProductCategoryPage productcategorypage;
+    private Assertions assertions;
+    private ProductDetailPage productdetailpage;
+    private ReviewFormPage reviewformpage;
+    private SignUpPage signuppage;
+    private Faker faker;
+    private OnBoardingPage onboardingpage;
+    private DOBPage dobpage;
+    private SkinPage skinpage;
+    private HairPage hairpage;
+    private SkinConcernsPage skinconcernspage;
+    private BodyConcernsPage bodyconcernspage;
+    private HairConcernsPage hairconcernspage;
+    private SignUpProfilePage signupprofilepage;
+    private LocationPage locationpage;
+    private FindFriendPage findfriendpage;
+    private LoginPage loginpage;
+    private SateliteButtonPage satelitebuttonpage;
+    private AddReviewChooseProductPage addreviewChooseProductpage;
 
     public AddReviewTest(){
         super();
@@ -39,7 +40,6 @@ public class AddReviewTest extends TestBase {
     @BeforeMethod
     public void setUp() throws MalformedURLException {
         initialization();
-        signuptest = new SignUpTest();
         productcategorypage = new ProductCategoryPage();
         assertions = new Assertions();
         productdetailpage = new ProductDetailPage();
@@ -59,6 +59,8 @@ public class AddReviewTest extends TestBase {
         findfriendpage = new FindFriendPage();
         homepage = new HomePage();
         loginpage = new LoginPage();
+        satelitebuttonpage = new SateliteButtonPage();
+        addreviewChooseProductpage = new AddReviewChooseProductPage();
     }
 
     @AfterMethod
@@ -188,6 +190,125 @@ public class AddReviewTest extends TestBase {
         reviewformpage.writeReview(faker.lorem().sentence(35));
         reviewformpage.hideKeyboard();
         reviewformpage.clickBtnSubmit();
+    }
+
+    @Test
+    public void addReviewFromPlusButtonAfterSignUp(){
+        //call sign up process
+        assertions.waitForAgreementText();
+        onboardingpage.clickBtnSignUp();
+
+        //register new user
+        signuppage.inputEmail(faker.internet().safeEmailAddress());
+        signuppage.inputUsername(faker.internet().slug());
+        signuppage.inputPassword(faker.internet().password());
+        signuppage.hideKeyboard();
+        signuppage.tapContinueButton();
+
+        //input DOB
+        assertions.waitForFieldDOB();
+        dobpage.tapDOBField();
+        dobpage.tapOKButton();
+        dobpage.tapNextButton();
+
+        //set skin
+        assertions.waitForSkinTypeOptions();
+        skinpage.selectSkinType();
+        assertions.waitForSkinToneOptions();
+        skinpage.selectSkinTone();
+        assertions.waitForSkinUndertoneOptions();
+        skinpage.selectSkinUndertone();
+        assertions.waitForNextButtonSkinType();
+        skinpage.tapNextButton();
+
+        //set hair and hijab
+        assertions.waitForHairTypeOptions();
+        hairpage.selectHairType();
+        assertions.waitForColoredHairOptions();
+        hairpage.selectColoredHair();
+        assertions.waitForHijaberptions();
+        hairpage.selectHijab();
+        assertions.waitForNextButtonHairType();
+        hairpage.tapNextButton();
+
+        //set skin concern
+        assertions.waitForSkinConcernOptions();
+        skinconcernspage.selectSkinConcerns();
+        assertions.waitForNextButtonSkinConcerns();
+        skinconcernspage.clickBtnNext();
+
+        //set body concern
+        assertions.waitForBodyConcernOptions();
+        bodyconcernspage.selectBodyConcerns();
+        assertions.waitForNextButtonBodyConcerns();
+        bodyconcernspage.clickBtnNext();
+
+        //set hair concern
+        assertions.waitForHairConcernOptions();
+        hairconcernspage.selectHairConcerns();
+        assertions.waitForNextButtonHairConcerns();
+        hairconcernspage.clickBtnNext();
+
+        //fill sign up profile
+        signupprofilepage.inputFullName(faker.name().fullName());
+        signupprofilepage.hideKeyboard();
+        signupprofilepage.clickLocation();
+        assertions.waitForLocationList();
+        locationpage.selectLocation();
+        assertions.waitForFieldPhoneNumber();
+        signupprofilepage.inputPhoneNumber(faker.phoneNumber().cellPhone());
+        //signupprofilepage.hideKeyboard();
+        signupprofilepage.clickBtnNext();
+
+        //skip find friend
+        assertions.waitForSkipButton();
+        findfriendpage.clickBtnSkip();
+        assertions.waitForStartBeautyJourneyButton();
+
+        //select product
+        homepage.clickBtnStartJourney();
+        homepage.dismissToolTip();
+        homepage.clickBtnPlus();
+        satelitebuttonpage.clickBtnReview();
+        addreviewChooseProductpage.selectProduct();
+
+        //add review
+        reviewformpage.setOverallRate(prop.getProperty("overalls"));
+        reviewformpage.setPackagingRate(prop.getProperty("package"));
+        reviewformpage.setPrice(prop.getProperty("price"));
+        reviewformpage.setRepurchase(prop.getProperty("repurchase"));
+        reviewformpage.writeReview(faker.lorem().sentence(35));
+        reviewformpage.hideKeyboard();
+        reviewformpage.clickBtnSubmit();
+    }
+
+    @Test
+    public void addReviewFromPlusButtonAfterLogin(){
+        //login
+        assertions.waitForAgreementText();
+        onboardingpage.clickBtnLogin();
+        loginpage.inputUsername(prop.getProperty("username"));
+        loginpage.inputPassword(prop.getProperty("password"));
+        loginpage.hideKeyboard();
+        loginpage.tapBtnLogin();
+
+        //select product
+        assertions.waitForCloseBtnAppRate();
+        homepage.clickBtnCloseRate();
+        homepage.dismissToolTip();
+        homepage.clickBtnPlus();
+        satelitebuttonpage.clickBtnReview();
+        addreviewChooseProductpage.selectProduct();
+
+        //add review
+        reviewformpage.setOverallRate(prop.getProperty("overalls"));
+        reviewformpage.setPackagingRate(prop.getProperty("package"));
+        reviewformpage.setPrice(prop.getProperty("price"));
+        reviewformpage.setRepurchase(prop.getProperty("repurchase"));
+        reviewformpage.writeReview(faker.lorem().sentence(35));
+        reviewformpage.hideKeyboard();
+        reviewformpage.clickBtnSubmit();
+
     }
 
 }

@@ -12,19 +12,19 @@ import java.net.MalformedURLException;
 
 public class SignUpTest extends TestBase {
 
-    Assertions assertions;
-    SignUpPage signuppage;
-    Faker faker;
-    OnBoardingPage onboardingpage;
-    DOBPage dobpage;
-    SkinPage skinpage;
-    HairPage hairpage;
-    SkinConcernsPage skinconcernspage;
-    BodyConcernsPage bodyconcernspage;
-    HairConcernsPage hairconcernspage;
-    SignUpProfilePage signupprofilepage;
-    LocationPage locationpage;
-    FindFriendPage findfriendpage;
+    private Assertions assertions;
+    private SignUpPage signuppage;
+    private Faker faker;
+    private OnBoardingPage onboardingpage;
+    private DOBPage dobpage;
+    private SkinPage skinpage;
+    private HairPage hairpage;
+    private SkinConcernsPage skinconcernspage;
+    private BodyConcernsPage bodyconcernspage;
+    private HairConcernsPage hairconcernspage;
+    private SignUpProfilePage signupprofilepage;
+    private LocationPage locationpage;
+    private FindFriendPage findfriendpage;
 
     public SignUpTest(){
         super();

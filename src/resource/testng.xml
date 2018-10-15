@@ -13,9 +13,14 @@
                     <include name="registerNewUser" />
                 </methods>
             </class>-->
-            <class name="com.qa.testcases.AddReviewTest">
+            <!--<class name="com.qa.testcases.AddReviewTest">
                 <methods>
                     <include name="addReviewAfterLogin" />
+                </methods>
+            </class>-->
+            <class name="com.qa.testcases.AddReviewTest">
+                <methods>
+                    <include name="addReviewFromPlusButtonAfterLogin" />
                 </methods>
             </class>
         </classes>

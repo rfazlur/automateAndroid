@@ -11,10 +11,10 @@ import java.net.MalformedURLException;
 
 public class LoginTest extends TestBase {
 
-    OnBoardingPage onboardingpage;
-    LoginPage loginpage;
-    Assertions assertions;
-    HomePage homepage;
+    private OnBoardingPage onboardingpage;
+    private LoginPage loginpage;
+    private Assertions assertions;
+    private HomePage homepage;
 
     public LoginTest(){
         super();
