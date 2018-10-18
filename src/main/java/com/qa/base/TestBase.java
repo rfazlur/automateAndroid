@@ -2,9 +2,17 @@ package com.qa.base;
 
 import com.qa.util.TestUtil;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileDriver;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.service.local.AppiumDriverLocalService;
+import io.appium.java_client.service.local.AppiumServiceBuilder;
+import io.appium.java_client.service.local.flags.GeneralServerFlag;
+import org.apache.commons.exec.CommandLine;
+import org.apache.commons.exec.DefaultExecuteResultHandler;
+import org.apache.commons.exec.DefaultExecutor;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -18,6 +26,10 @@ public class TestBase {
     public static Properties prop;
     public static AppiumDriver driver;
     private static String cwd = System.getProperty("user.dir");
+    static String nodePath = "/home/faiz/.nvm/versions/node/v10.11.0/bin/node";
+    static String appiumPath = "/home/faiz/.nvm/versions/node/v10.11.0/bin/appium";
+    static AppiumDriverLocalService appiumservice;
+    static String appiumServiceUrl;
 
 
     public TestBase(){
@@ -33,20 +45,40 @@ public class TestBase {
         }
     }
 
-    public static void initialization() throws MalformedURLException {
+    public static void startAppium() throws InterruptedException {
+        appiumservice = new AppiumServiceBuilder()
+                .usingDriverExecutable(new File(nodePath))
+                .withAppiumJS(new File(appiumPath))
+                .withIPAddress("127.0.0.1")
+                .usingPort(4723)
+                .build();
+        appiumservice.start();
+        Thread.sleep(7000);
+    }
+
+    public static void stopAppium() throws IOException {
+        Runtime.getRuntime().exec("killall node");
+    }
+
+    public static void initialization() throws IOException, InterruptedException {
         String device = prop.getProperty("deviceName");
         String platform = prop.getProperty("platformName");
         String serverLoc = prop.getProperty("server");
         String portNumber = prop.getProperty("port");
 
+        stopAppium();
+        startAppium();
 
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("deviceName", device);
         caps.setCapability("platformName", platform);
-        caps.setCapability("app", cwd+"/src/app/fdn_dev.apk");
+        caps.setCapability("app", cwd+"/src/app/fdndev.apk");
+        caps.setCapability("automationName", "Appium");
+
+        //driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), caps);
 
         driver = new AndroidDriver(new URL("http://"+serverLoc+":"+portNumber+"/wd/hub"), caps);
-
         driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
+
     }
 }

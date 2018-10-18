@@ -7,21 +7,21 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.net.MalformedURLException;
+import java.io.IOException;
 
-public class LoginTest extends TestBase {
+public class LoginValidTest extends TestBase {
 
     private OnBoardingPage onboardingpage;
     private LoginPage loginpage;
     private Assertions assertions;
     private HomePage homepage;
 
-    public LoginTest(){
+    public LoginValidTest(){
         super();
     }
 
     @BeforeMethod
-    public void setUp() throws MalformedURLException {
+    public void setUp() throws IOException, InterruptedException {
         initialization();
         onboardingpage = new OnBoardingPage();
         loginpage = new LoginPage();
@@ -35,10 +35,23 @@ public class LoginTest extends TestBase {
     }
 
     @Test
-    public void loginValid(){
+    public void loginUsingUsername(){
         assertions.waitForAgreementText();
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("username"));
+        loginpage.inputPassword(prop.getProperty("password"));
+        loginpage.hideKeyboard();
+        loginpage.tapBtnLogin();
+        assertions.waitForCloseBtnAppRate();
+        homepage.clickBtnCloseRate();
+        homepage.dismissToolTip();
+    }
+
+    @Test
+    public void loginUsingEmail(){
+        assertions.waitForAgreementText();
+        onboardingpage.clickBtnLogin();
+        loginpage.inputUsername(prop.getProperty("email"));
         loginpage.inputPassword(prop.getProperty("password"));
         loginpage.hideKeyboard();
         loginpage.tapBtnLogin();

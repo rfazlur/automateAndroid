@@ -3,9 +3,14 @@
 <suite name="Default Suite">
     <test name="automateAndroid">
         <classes>
-            <class name="com.qa.testcases.LoginTest">
+            <class name="com.qa.testcases.LoginValidTest">
                 <methods>
-                    <include name="loginValid" />
+                    <include name="loginUsingUsername" />
+                </methods>
+            </class>
+            <!--<class name="com.qa.testcases.LoginValidTest">
+                <methods>
+                    <include name="loginUsingEmail" />
                 </methods>
             </class>
             <class name="com.qa.testcases.SignUpTest">
@@ -32,7 +37,12 @@
                 <methods>
                     <include name="addReviewFromPlusButtonAfterLogin" />
                 </methods>
-            </class>
+            </class>-->
+            <!--<class name="com.qa.testcases.LoginInvalidTest">
+                <methods>
+                    <include name="loginInvalid" />
+                </methods>
+            </class>-->
         </classes>
     </test> <!-- automateAndroid -->
 </suite> <!-- Default Suite -->

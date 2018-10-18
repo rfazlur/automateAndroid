@@ -2,13 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ed826bf-38a3-4086-9df9-a3e821343611" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/fdn_dev.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/config/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resource/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/testcases/AddReviewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/testcases/AddReviewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginValidTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/base/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/AddReviewChooseProductPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/AddReviewChooseProductPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/BodyConcernsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/BodyConcernsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/DOBPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/DOBPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/FindFriendPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/FindFriendPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/HairConcernsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/HairConcernsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/HairPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/HairPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/LocationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/LocationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/OnBoardingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/OnBoardingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/ProductCategoryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/ProductCategoryPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/ProductDetailPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/ProductDetailPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/ReviewFormPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/ReviewFormPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/SateliteButtonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/SateliteButtonPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/SignUpPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/SignUpPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/SignUpProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/SignUpProfilePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/SkinConcernsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/SkinConcernsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/SkinPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/SkinPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/Assertions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/util/Assertions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/TestUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/util/TestUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/examle/Random.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/examle/Random.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/AddReviewTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/AddReviewTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/SignUpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/SignUpTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -110,43 +137,83 @@
     <session id="-1327500076">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="15" />
-          <entry key="xml" value="2" />
+          <entry key="class" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="83" />
+          <entry key="png" value="27" />
+          <entry key="properties" value="4" />
+          <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
-          <entry key="XML" value="2" />
+          <entry key="CLASS" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Image" value="27" />
+          <entry key="JAVA" value="83" />
+          <entry key="Properties" value="4" />
+          <entry key="XML" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="917" />
-          <entry key="xml" value="4" />
+          <entry key="java" value="3697" />
+          <entry key="properties" value="27" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="917" />
-          <entry key="XML" value="4" />
+          <entry key="JAVA" value="3697" />
+          <entry key="Properties" value="27" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/AddReviewTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="281" column="40" selection-start-line="281" selection-start-column="40" selection-end-line="281" selection-end-column="40" />
+            <state relative-caret-position="602">
+              <caret line="68" column="12" lean-forward="true" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginInvalidTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginValidTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,6 +230,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ImagePath</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -184,13 +256,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/CreateAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/OnBoarding.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/CreateAccountTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/OnBoardingPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/examle/Random.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/RandomSkinType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/RandomSelect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/SkinPageV2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/SkinPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/SkinConcernsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/HairPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/HairConcernsPage.java" />
@@ -203,18 +273,24 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/SignUpPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/ReviewFormPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/ProductCategoryPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/config/config.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/BodyConcernsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/DOBPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/SateliteButtonPage.java" />
-        <option value="$PROJECT_DIR$/src/resource/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/RandomNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/AddReviewChooseProductPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/config/AppiumServer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/ValidateToast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/config/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/AddReviewTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java" />
+        <option value="$PROJECT_DIR$/src/resource/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginValidTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/SkinPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginInvalidTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" />
       </list>
     </option>
   </component>
@@ -226,10 +302,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
-    <option name="y" value="30" />
-    <option name="width" value="960" />
-    <option name="height" value="1050" />
+    <option name="y" value="27" />
+    <option name="width" value="950" />
+    <option name="height" value="762" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -239,7 +314,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,7 +324,18 @@
             <path>
               <item name="automateAndroid" type="b2602c69:ProjectViewProjectNode" />
               <item name="automateAndroid" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automateAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automateAndroid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automateAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automateAndroid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="automateAndroid" type="b2602c69:ProjectViewProjectNode" />
@@ -272,6 +357,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="qa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automateAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automateAndroid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automateAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automateAndroid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="automateAndroid" type="b2602c69:ProjectViewProjectNode" />
@@ -318,17 +421,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testcases" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="automateAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automateAndroid" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539592943198" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/io/appium/java-client/6.1.0/java-client-6.1.0.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539837145286" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -348,8 +458,8 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG./home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml">
-    <configuration name="AddReviewTest.addReviewAfterSignUp" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automateFDBRApp" />
+    <configuration name="LoginTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automateAndroid" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qa.testcases.*" />
@@ -357,9 +467,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.testcases.AddReviewTest" />
-      <option name="METHOD_NAME" value="addReviewAfterSignUp" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.testcases.LoginTest" />
       <properties />
       <listeners />
       <method v="2">
@@ -367,7 +475,7 @@
       </method>
     </configuration>
     <configuration name="LoginTest (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automateFDBRApp" />
+      <module name="automateAndroid" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qa.testcases.*" />
@@ -383,7 +491,23 @@
       </method>
     </configuration>
     <configuration name="LoginTest (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automateFDBRApp" />
+      <module name="automateAndroid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.testcases.LoginTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest (4)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automateAndroid" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qa.testcases.*" />
@@ -414,24 +538,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginValid" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automateFDBRApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qa.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.testcases.LoginTest" />
-      <option name="METHOD_NAME" value="loginValid" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
       <module name="automateFDBRApp" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/resource/testng.xml" />
@@ -452,18 +558,18 @@
     <list>
       <item itemvalue="TestNG./home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" />
       <item itemvalue="TestNG.LoginTest" />
+      <item itemvalue="TestNG.LoginTest (1)" />
       <item itemvalue="TestNG.LoginTest (2)" />
       <item itemvalue="TestNG.LoginTest (3)" />
-      <item itemvalue="TestNG.LoginTest.loginValid" />
-      <item itemvalue="TestNG.AddReviewTest.addReviewAfterSignUp" />
+      <item itemvalue="TestNG.LoginTest (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddReviewTest.addReviewAfterSignUp" />
-        <item itemvalue="TestNG.LoginTest.loginValid" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest (4)" />
         <item itemvalue="TestNG.LoginTest (3)" />
         <item itemvalue="TestNG.LoginTest (2)" />
-        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -481,43 +587,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.12 at 14h 17m 44s.xml">
+    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.17 at 19h 30m 14s.xml">
       <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.12 at 14h 41m 50s.xml">
+    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.17 at 19h 32m 33s.xml">
       <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.12 at 14h 42m 59s.xml">
+    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.17 at 19h 33m 23s.xml">
       <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.12 at 14h 47m 05s.xml">
+    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.17 at 19h 34m 44s.xml">
       <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.12 at 14h 48m 54s.xml">
+    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.17 at 19h 35m 11s.xml">
       <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.12 at 14h 53m 17s.xml">
+    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.18 at 10h 53m 30s.xml">
       <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.12 at 14h 59m 41s.xml">
+    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.18 at 11h 12m 28s.xml">
       <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.15 at 15h 07m 16s.xml">
+    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.18 at 11h 27m 01s.xml">
       <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.15 at 15h 34m 04s.xml">
+    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.18 at 11h 28m 03s.xml">
       <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.15 at 15h 36m 45s.xml">
+    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.18 at 11h 31m 39s.xml">
       <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1016" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26093918" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49905482" visible="true" weight="0.3094984" />
+      <window_info id="Structure" order="1" sideWeight="0.50094515" side_tool="true" weight="0.2769477" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -525,13 +639,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32934782" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39817974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287827" />
+      <window_info anchor="bottom" x="0" y="106" width="1920" height="937" id="Debug" order="3" sideWeight="0.4994664" type="WINDOWED" weight="0.39817974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32992035" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32992035" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053364" side_tool="true" weight="0.39817974" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3287827" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -548,105 +662,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/ProfilePage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SettingsPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/CreateAccountTest.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="207" column="54" lean-forward="true" selection-start-line="207" selection-start-column="54" selection-end-line="207" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/OnBoardingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/RandomSkinType.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/examle/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/RandomSelect.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SkinPageV2.java" />
-    <entry file="jar:///usr/local/java/jdk1.8.0_181/src.zip!/java/util/UUID.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/javafaker/javafaker/0.16/javafaker-0.16.jar!/com/github/javafaker/Internet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="180" column="18" selection-start-line="180" selection-start-column="18" selection-end-line="180" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SkinConcernsPage.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SkinPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/HairPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="23" column="143" lean-forward="true" selection-start-line="23" selection-start-column="143" selection-end-line="23" selection-end-column="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SkinConcernsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="40" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/HairConcernsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/javafaker/javafaker/0.16/javafaker-0.16.jar!/com/github/javafaker/Faker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="237" column="14" selection-start-line="237" selection-start-column="14" selection-end-line="237" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/javafaker/javafaker/0.16/javafaker-0.16.jar!/com/github/javafaker/Name.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/LocationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/FindFriendPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -654,24 +669,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="49" column="52" lean-forward="true" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/ProductDetailPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="64" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,39 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SignUpPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-          <folding>
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1203#1204#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -725,45 +697,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/config/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SignUpProfilePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-568">
-          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,10 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,13 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1645#1646#0" expanded="true" />
-            <element signature="e#1667#1668#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,13 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="31" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,38 +729,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/BodyConcernsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/RandomNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/RandomNumbers.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/Assertions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -853,13 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -867,16 +751,142 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/config/AppiumServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__11_38_13AM.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__11_27_24AM.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__11_45_10AM.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__11_53_18AM.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__12_15_40PM.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__12_14_39PM.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__12_10_00PM.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__12_17_29PM.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__12_19_05PM.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__11_57_59AM.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__12_06_31PM.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__12_20_56PM.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__12_33_42PM.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__12_33_44PM.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__12_33_45PM.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__12_33_46PM.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/17-Oct-2018__12_39_26PM.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/17-10-2018__01_39_10PM.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/config/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/17-10-2018__02_08_49PM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/17-10-2018__02_09_51PM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/6.1.0/java-client-6.1.0.jar!/io/appium/java_client/remote/AppiumCommandExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/OnBoardingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/androidAutomation.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SkinPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/BodyConcernsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/ValidateToast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1002">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/AddReviewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="281" column="40" selection-start-line="281" selection-start-column="40" selection-end-line="281" selection-end-column="40" />
+        <state relative-caret-position="255">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="68" column="12" lean-forward="true" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginInvalidTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginValidTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
