@@ -14,7 +14,7 @@ public class TakePicturePage extends TestBase {
     MobileElement btnTakePicture;
     @AndroidFindBy(id = "com.android.packageinstaller:id/permission_allow_button")
     MobileElement btnAlowPermissionPhotoAccess;
-    @AndroidFindBy(id = "com.fdbr.android.debug:id/toolbar_action_button")
+    @AndroidFindBy(xpath = "//android.widget.ImageView[@resource-id='com.fdbr.android.debug:id/toolbar_action_button_image']")
     MobileElement btnNext;
 
     public TakePicturePage(){

@@ -124,7 +124,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="93" />
+          <entry key="java" value="95" />
           <entry key="png" value="27" />
           <entry key="properties" value="5" />
           <entry key="xml" value="20" />
@@ -135,7 +135,7 @@
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="27" />
-          <entry key="JAVA" value="93" />
+          <entry key="JAVA" value="95" />
           <entry key="Properties" value="5" />
           <entry key="XML" value="20" />
         </counts>
@@ -222,14 +222,40 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/TakePicturePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="16" column="71" lean-forward="true" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+            <state relative-caret-position="375">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="e#1148#1149#0" expanded="true" />
                 <element signature="e#1179#1180#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/AddReviewTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="161" column="26" lean-forward="true" selection-start-line="161" selection-start-column="26" selection-end-line="161" selection-end-column="26" />
+              <folding>
+                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#1262#1263#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/ReviewFormPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+              <folding>
+                <element signature="e#5121#5122#0" expanded="true" />
+                <element signature="e#5154#5155#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -309,6 +335,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/Assertions.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/editProfile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/TakePicturePage.java" />
       </list>
     </option>
   </component>
@@ -449,7 +476,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539942878942" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539944516047" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -602,9 +629,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.19 at 10h 20m 02s.xml">
-      <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.19 at 10h 25m 54s.xml">
       <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -638,6 +662,9 @@
     <history-entry file="FDNApp - 2018.10.19 at 17h 07m 13s.xml">
       <configuration name="FDNApp" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="FDNApp - 2018.10.19 at 17h 13m 44s.xml">
+      <configuration name="FDNApp" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -652,7 +679,7 @@
     <frame x="0" y="27" width="1920" height="1016" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49905482" visible="true" weight="0.33191034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49905482" visible="true" weight="0.33191034" />
       <window_info id="Structure" order="1" sideWeight="0.50094515" side_tool="true" weight="0.2769477" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -662,11 +689,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3287827" />
-      <window_info anchor="bottom" x="0" y="134" width="1920" height="909" id="Debug" order="3" sideWeight="0.4994664" type="WINDOWED" visible="true" weight="0.39817974" />
+      <window_info anchor="bottom" x="0" y="148" width="1920" height="895" id="Debug" order="3" sideWeight="0.4994664" type="WINDOWED" visible="true" weight="0.39817974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32992035" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32992035" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32992035" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053364" side_tool="true" weight="0.39817974" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3287827" />
@@ -685,13 +712,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/RandomNumbers.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/ReviewFormPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/config/AppiumServer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -844,6 +864,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -858,17 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="136" column="37" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/AddReviewTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="72" column="39" lean-forward="true" selection-start-line="71" selection-start-column="4" selection-end-line="72" selection-end-column="39" />
-          <folding>
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,11 +917,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/TakePicturePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="71" lean-forward="true" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        <state relative-caret-position="375">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="e#1148#1149#0" expanded="true" />
             <element signature="e#1179#1180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/AddReviewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="161" column="26" lean-forward="true" selection-start-line="161" selection-start-column="26" selection-end-line="161" selection-end-column="26" />
+          <folding>
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/ReviewFormPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding>
+            <element signature="e#5121#5122#0" expanded="true" />
+            <element signature="e#5154#5155#0" expanded="true" />
           </folding>
         </state>
       </provider>
