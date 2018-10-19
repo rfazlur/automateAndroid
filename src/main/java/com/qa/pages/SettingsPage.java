@@ -58,14 +58,26 @@ public class SettingsPage extends TestBase {
     MobileElement optionUpdateBC;
 
     //option beauty profile
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='9']")
+    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
     MobileElement skinOily;
 
-    @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='9']")
+    @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='13']")
     MobileElement skinToneDark;
 
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='9']")
+    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='18']")
     MobileElement skinUndertone;
+
+    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='11']")
+    MobileElement hairTypeCurly;
+
+    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='13']")
+    MobileElement colouredHairNo;
+
+    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='15']")
+    MobileElement hijaberYes;
+
+    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='17']")
+    MobileElement buttonSaveUpdateBeautyProf;
 
 
     public SettingsPage(){
