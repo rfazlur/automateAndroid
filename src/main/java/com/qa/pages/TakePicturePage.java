@@ -36,5 +36,4 @@ public class TakePicturePage extends TestBase {
     public void clickBtnNext(){
         btnNext.click();
     }
-
 }

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ed826bf-38a3-4086-9df9-a3e821343611" name="Default Changelist" comment="" />
+    <list default="true" id="8ed826bf-38a3-4086-9df9-a3e821343611" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -478,7 +480,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539944600254" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539944890744" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -631,9 +633,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.19 at 10h 25m 54s.xml">
-      <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.19 at 10h 26m 58s.xml">
       <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -667,6 +666,9 @@
     <history-entry file="FDNApp - 2018.10.19 at 17h 13m 44s.xml">
       <configuration name="FDNApp" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="FDNApp - 2018.10.19 at 17h 27m 24s.xml">
+      <configuration name="FDNApp" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,9 +681,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1016" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49905482" visible="true" weight="0.33191034" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49905482" visible="true" weight="0.33191034" />
       <window_info id="Structure" order="1" sideWeight="0.50094515" side_tool="true" weight="0.2769477" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -691,7 +692,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3287827" />
-      <window_info anchor="bottom" x="0" y="148" width="1920" height="895" id="Debug" order="3" sideWeight="0.4994664" type="WINDOWED" visible="true" weight="0.39817974" />
+      <window_info active="true" anchor="bottom" x="0" y="148" width="1920" height="895" id="Debug" order="3" sideWeight="0.4994664" type="WINDOWED" visible="true" weight="0.39817974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32992035" />
