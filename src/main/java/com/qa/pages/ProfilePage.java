@@ -35,7 +35,7 @@ public class ProfilePage extends TestBase {
     @AndroidFindBy(id = "com.fdbr.android.debug:id/tv_beauty_points")
     MobileElement btnBeautyPoints;
 
-    public AddReviewChooseProductPage(){
+    public ProfilePage(){
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 

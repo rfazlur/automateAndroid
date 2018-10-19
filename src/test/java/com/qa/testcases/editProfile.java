@@ -63,20 +63,21 @@ public class editProfile extends TestBase {
         satelitebuttonpage = new SateliteButtonPage();
         addreviewChooseProductpage = new AddReviewChooseProductPage();
         profilePage = new ProfilePage();
+    }
 
     @AfterMethod
-        public void tearDown(){
-            driver.quit();
-        }
+    public void tearDown() {
+        driver.quit();
+    }
 
     @Test
-        public void SettingPage(){
-            profilePage.clickToolbarSetting();
-            assertions.waitEditProfileOption();
-        }
+    public void SettingPage() {
+        profilePage.clickToolbarSetting();
+        assertions.waitEditProfileOption();
+    }
 
     @Test
-    public void EditProfile(){
+    public void EditProfile() {
 
-        }
+    }
 }

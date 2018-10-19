@@ -29,7 +29,6 @@ public class TestBase {
     static String nodePath = "/usr/local/bin/node";
     static String appiumPath = "/usr/local/bin/appium";
     static AppiumDriverLocalService appiumservice;
-    static String appiumServiceUrl;
 
 
     public TestBase(){
@@ -38,8 +37,6 @@ public class TestBase {
             FileInputStream ip = new FileInputStream(cwd+"/src/main/java/com"
                     + "/qa/config/config.properties");
             prop.load(ip);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -75,10 +72,7 @@ public class TestBase {
         caps.setCapability("app", cwd+"/src/app/fdndev.apk");
         caps.setCapability("automationName", "Appium");
 
-        //driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), caps);
-
         driver = new AndroidDriver(new URL("http://"+serverLoc+":"+portNumber+"/wd/hub"), caps);
         driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-
     }
 }
