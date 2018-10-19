@@ -22,6 +22,10 @@ public class HomePage extends TestBase {
     MobileElement btnCloseRate;
     @AndroidFindBy(id = "com.fdbr.android.debug:id/fab")
     MobileElement btnPlus;
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/btn_ok")
+    MobileElement btnOKCameraPermission;
+    @AndroidFindBy(id = "com.android.packageinstaller:id/permission_allow_button")
+    MobileElement btnAllowTakePicture;
 
     public HomePage(){
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
@@ -49,5 +53,13 @@ public class HomePage extends TestBase {
 
     public void clickBtnPlus(){
         btnPlus.click();
+    }
+
+    public void clickBtnOKCameraPermission(){
+        btnOKCameraPermission.click();
+    }
+
+    public void clickBtnAllowTakePicture(){
+        btnAllowTakePicture.click();
     }
 }

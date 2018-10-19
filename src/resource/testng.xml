@@ -3,12 +3,42 @@
 <suite name="Default Suite">
     <test name="automateAndroid">
         <classes>
+            <!--<class name="com.qa.testcases.AddReviewTest">
+                <methods>
+                    <include name="addReviewAfterSignUp" />
+                </methods>
+            </class>
+            <class name="com.qa.testcases.LoginValidTest">
+                <methods>
+                    <include name="loginUsingEmail" />
+                </methods>
+            </class>
+            <class name="com.qa.testcases.SignUpTest">
+                <methods>
+                    <include name="registerNewUser" />
+                </methods>
+            </class>
             <class name="com.qa.testcases.AddReviewTest">
                 <methods>
                     <include name="addReviewAfterSignUp" />
                 </methods>
             </class>
-            <!--<class name="com.qa.testcases.LoginValidTest"><class name="com.qa.testcases.LoginValidTest">
+            <class name="com.qa.testcases.AddReviewTest">
+                <methods>
+                    <include name="addReviewAfterLogin" />
+                </methods>
+            </class>
+            <class name="com.qa.testcases.AddReviewTest">
+                <methods>
+                    <include name="addReviewFromPlusButtonAfterSignUp" />
+                </methods>
+            </class>
+            <class name="com.qa.testcases.AddReviewTest">
+                <methods>
+                    <include name="addReviewFromPlusButtonAfterLogin" />
+                </methods>
+            </class >
+            <class name="com.qa.testcases.LoginValidTest">
                 <methods>
                     <include name="loginUsingEmail" />
                 </methods>
@@ -38,40 +68,16 @@
                     <include name="addReviewFromPlusButtonAfterLogin" />
                 </methods>
             </class>
-                <methods>
-                    <include name="loginUsingEmail" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.SignUpTest">
-                <methods>
-                    <include name="registerNewUser" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.AddReviewTest">
-                <methods>
-                    <include name="addReviewAfterSignUp" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.AddReviewTest">
-                <methods>
-                    <include name="addReviewAfterLogin" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.AddReviewTest">
-                <methods>
-                    <include name="addReviewFromPlusButtonAfterSignUp" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.AddReviewTest">
-                <methods>
-                    <include name="addReviewFromPlusButtonAfterLogin" />
-                </methods>
-            </class>-->
-            <!--<class name="com.qa.testcases.LoginInvalidTest">
+            <class name="com.qa.testcases.LoginInvalidTest">
                 <methods>
                     <include name="loginInvalid" />
                 </methods>
             </class>-->
+            <class name="com.qa.testcases.AddPostTest">
+                <methods>
+                    <include name="addPostAfterLoginWithoutTagProduct" />
+                </methods>
+            </class>
         </classes>
     </test> <!-- automateAndroid -->
 </suite> <!-- Default Suite -->
