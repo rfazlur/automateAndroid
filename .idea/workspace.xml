@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ed826bf-38a3-4086-9df9-a3e821343611" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/pages/TakePicturePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/pages/TakePicturePage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,7 +105,7 @@
     <session id="-1327500076">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
@@ -227,10 +228,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/TakePicturePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="465">
+              <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
               <folding>
-                <element signature="e#1148#1149#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
                 <element signature="e#1179#1180#0" expanded="true" />
               </folding>
             </state>
@@ -480,7 +488,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539944890744" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539944925412" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -692,7 +700,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3287827" />
-      <window_info active="true" anchor="bottom" x="0" y="148" width="1920" height="895" id="Debug" order="3" sideWeight="0.4994664" type="WINDOWED" visible="true" weight="0.39817974" />
+      <window_info anchor="bottom" x="0" y="64" width="1920" height="979" id="Debug" order="3" sideWeight="0.4994664" type="WINDOWED" weight="0.39817974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32992035" />
@@ -944,10 +952,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/TakePicturePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="465">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding>
-            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
             <element signature="e#1179#1180#0" expanded="true" />
           </folding>
         </state>
