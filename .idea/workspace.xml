@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ed826bf-38a3-4086-9df9-a3e821343611" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/util/Assertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/util/Assertions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examle/Random.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/base/TestBase.class" afterDir="false" />
-    </list>
+    <list default="true" id="8ed826bf-38a3-4086-9df9-a3e821343611" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,7 +102,7 @@
     <session id="-1327500076">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
@@ -211,8 +203,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/AddPostTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="46" column="50" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="50" />
+            <state relative-caret-position="302">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#647#648#0" expanded="true" />
@@ -438,8 +430,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539934166876" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539842566472" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539942878942" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -592,15 +583,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.18 at 19h 39m 14s.xml">
-      <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.18 at 19h 42m 08s.xml">
-      <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.17 at 19h 33m 23s.xml">
-      <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_home_faiz_Documents_Project_FDN_automateAndroid_src_resource_testng_xml - 2018.10.19 at 10h 07m 10s.xml">
       <configuration name="/home/faiz/Documents/Project/FDN/automateAndroid/src/resource/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -628,6 +610,15 @@
     <history-entry file="FDNApp - 2018.10.18 at 11h 44m 14s.xml">
       <configuration name="FDNApp" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="FDNApp - 2018.10.19 at 16h 53m 23s.xml">
+      <configuration name="FDNApp" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FDNApp - 2018.10.19 at 16h 54m 18s.xml">
+      <configuration name="FDNApp" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FDNApp - 2018.10.19 at 16h 54m 40s.xml">
+      <configuration name="FDNApp" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,7 +631,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1016" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49905482" visible="true" weight="0.32817504" />
       <window_info id="Structure" order="1" sideWeight="0.50094515" side_tool="true" weight="0.2769477" />
