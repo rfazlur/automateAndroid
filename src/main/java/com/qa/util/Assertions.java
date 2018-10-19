@@ -132,4 +132,12 @@ public class Assertions extends TestBase {
         wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(By.id("com.fdbr.android.debug:id/rate_overall")));
     }
+
+    //profile assertions
+    public void waitEditProfileOption(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("com.fdbr.android.debug:id/rel_editprofile")));
+    }
+
+
 }

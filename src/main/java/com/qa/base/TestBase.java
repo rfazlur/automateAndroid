@@ -26,8 +26,8 @@ public class TestBase {
     public static Properties prop;
     public static AppiumDriver driver;
     private static String cwd = System.getProperty("user.dir");
-    static String nodePath = "/home/faiz/.nvm/versions/node/v10.11.0/bin/node";
-    static String appiumPath = "/home/faiz/.nvm/versions/node/v10.11.0/bin/appium";
+    static String nodePath = "/usr/local/bin/node";
+    static String appiumPath = "/usr/local/bin/appium";
     static AppiumDriverLocalService appiumservice;
     static String appiumServiceUrl;
 
