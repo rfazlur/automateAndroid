@@ -29,7 +29,7 @@ public class SettingsPage extends TestBase {
     @AndroidFindBy(id = "com.fdbr.android.debug:id/toolbar_back_button")
     MobileElement headToolbarBack;
 
-    //edit profile field
+    //edit profile field hola
     
 
     public SettingsPage(){
