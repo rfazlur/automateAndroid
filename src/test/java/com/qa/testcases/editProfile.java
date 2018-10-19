@@ -63,6 +63,7 @@ public class editProfile extends TestBase {
         satelitebuttonpage = new SateliteButtonPage();
         addreviewChooseProductpage = new AddReviewChooseProductPage();
         profilePage = new ProfilePage();
+        //cek
     }
 
     @AfterMethod
