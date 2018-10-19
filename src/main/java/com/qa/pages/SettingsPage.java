@@ -29,8 +29,44 @@ public class SettingsPage extends TestBase {
     @AndroidFindBy(id = "com.fdbr.android.debug:id/toolbar_back_button")
     MobileElement headToolbarBack;
 
-    //edit profile field hola
-    
+    //edit profile field
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/img_back")
+    MobileElement headToolbarBackEditProfile;
+
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/txt_save")
+    MobileElement headToolbarSaveEditProfile;
+
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_dob")
+    MobileElement fieldDOB;
+
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/edt_name")
+    MobileElement fieldUsername;
+
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_location")
+    MobileElement fieldLocation;
+
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/edt_phone_number")
+    MobileElement fieldPhone;
+
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_bio")
+    MobileElement fieldBio;
+
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_beauty_id")
+    MobileElement optionUpdateBP;
+
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_beauty_concern")
+    MobileElement optionUpdateBC;
+
+    //option beauty profile
+    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='9']")
+    MobileElement skinOily;
+
+    @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='9']")
+    MobileElement skinToneDark;
+
+    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='9']")
+    MobileElement skinUndertone;
+
 
     public SettingsPage(){
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
