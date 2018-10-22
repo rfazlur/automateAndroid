@@ -9,4 +9,6 @@ public class UpdateBeautyProfile {
 //    String hairtype = prop.getProperty("edithairtype");
 //    String coloredhair = prop.getProperty("editcoloredhair");
 //    String hijaber = prop.getProperty("edithijaber");
+
+
 }

@@ -62,6 +62,10 @@ public class SettingsPage extends TestBase {
 
             //-------------------option beauty profile
             //skin type
+            //com.fdbr.android.debug:id/hsv_skin_types
+            @AndroidFindBy(id = "com.fdbr.android.debug:id/hsv_skin_types")
+            MobileElement skinTypeElement;
+
             @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='6']")
             MobileElement skinDry;
 
@@ -75,6 +79,9 @@ public class SettingsPage extends TestBase {
             MobileElement skinOily;
 
             //skin tone
+            @AndroidFindBy(id = "com.fdbr.android.debug:id/ll_skin_tones")
+            MobileElement skinToneElement;
+
             @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='9']")
             MobileElement skinToneLight;
 
@@ -91,6 +98,9 @@ public class SettingsPage extends TestBase {
             MobileElement skinToneDark;
 
             //skin undertone
+            @AndroidFindBy(id = "com.fdbr.android.debug:id/hsv_skin_undertones")
+            MobileElement skinUnderToneElement;
+
             @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='16']")
             MobileElement skinCool;
 
@@ -101,6 +111,9 @@ public class SettingsPage extends TestBase {
             MobileElement skinWorm;
 
             //hair type
+            @AndroidFindBy(id = "com.fdbr.android.debug:id/hsv_hair_types")
+            MobileElement hairTypeElement;
+
             @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='9']") //element nya sama dengan skinOily
             MobileElement hairTypeWavy;
 
@@ -111,13 +124,19 @@ public class SettingsPage extends TestBase {
             MobileElement hairTypeCurly;
 
             //colored hair
+            @AndroidFindBy(id = "com.fdbr.android.debug:id/hsv_hair_colors")
+            MobileElement coloredHairElement;
+
             @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='12']")
             MobileElement colouredHairYes;
 
             @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='13']")
             MobileElement colouredHairNo;
 
-            //are u hijaber ?
+            //are u hijaber
+            @AndroidFindBy(xpath = "com.fdbr.android.debug:id/hsv_hijabs")
+            MobileElement hijaberElement;
+
             @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='14']")
             MobileElement hijaberYes;
 
@@ -174,4 +193,6 @@ public class SettingsPage extends TestBase {
     public void clickHeadToolbarBack(){
         headToolbarBack.click();
     }
+
+    public void
 }

@@ -33,6 +33,7 @@ public class editProfile extends TestBase {
     private SateliteButtonPage satelitebuttonpage;
     private AddReviewChooseProductPage addreviewChooseProductpage;
     private ProfilePage profilePage;
+    private SettingsPage settingsPage;
 
     public editProfile(){
         super();
@@ -63,6 +64,7 @@ public class editProfile extends TestBase {
         satelitebuttonpage = new SateliteButtonPage();
         addreviewChooseProductpage = new AddReviewChooseProductPage();
         profilePage = new ProfilePage();
+        settingsPage = new SettingsPage();
         //cek
     }
 
