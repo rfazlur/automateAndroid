@@ -57,10 +57,23 @@ public class SettingsPage extends TestBase {
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_beauty_concern")
     MobileElement optionUpdateBC;
 
-    //option beauty profile
+    //-------------------option beauty profile
+
+    //skin type
     @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
     MobileElement skinOily;
 
+    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
+    MobileElement skinDry;
+
+    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
+    MobileElement skinNormal;
+
+    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
+    MobileElement skinCombination;
+
+
+    //skin tone
     @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='13']")
     MobileElement skinToneDark;
 
