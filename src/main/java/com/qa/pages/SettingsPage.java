@@ -2,8 +2,10 @@ package com.qa.pages;
 
 import com.qa.base.TestBase;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidTouchAction;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.support.PageFactory;
 
 public class SettingsPage extends TestBase {
@@ -194,5 +196,97 @@ public class SettingsPage extends TestBase {
         headToolbarBack.click();
     }
 
-    public void
+    public void setSkinType(String skintype){
+
+        if (skintype.equals("dry")){
+            skinDry.click();
+        } else if (skintype.equals("normal")){
+            skinNormal.click();
+        } else  if (skintype.equals("combination")){
+            skinCombination.click();
+        } else  if(skintype.equals("oily")){
+            skinOily.click();
+        } else {
+            System.out.println("skin type changed");
+        }
+    }
+
+    public void setSkinTone(String skintone){
+
+        if (skintone.equals("light")){
+            skinToneLight.click();
+        } else if (skintone.equals("medium light")){
+            skinMedLight.click();
+        } else  if (skintone.equals("medium")){
+            skinToneMed.click();
+        } else  if(skintone.equals("medium dark")){
+            skinToneMedDark.click();
+        } else if(skintone.equals("dark")){
+            skinToneDark.click();
+        } else {
+            System.out.println("skin tone changed");
+        }
+    }
+
+    public void setSkinUndertoneTone(String skinundertone){
+
+        if (skinundertone.equals("cool")){
+            skinCool.click();
+        } else if (skinundertone.equals("neutral")){
+            skinNeutral.click();
+        } else  if (skinundertone.equals("worm")){
+            skinWorm.click();
+        } else {
+            System.out.println("skin undertone changed");
+        }
+    }
+
+    public void setHairType(String hairtype){
+
+        if (hairtype.equals("wavy")){
+            hairTypeWavy.click();
+        } else if (hairtype.equals("straight")){
+            hairTypeStraight.click();
+        } else  if (hairtype.equals("curly")){
+            hairTypeCurly.click();
+        } else {
+            System.out.println("hairtype changed");
+        }
+    }
+
+    public void setHairType(String hairtype){
+
+        if (hairtype.equals("wavy")){
+            hairTypeWavy.click();
+        } else if (hairtype.equals("straight")){
+            hairTypeStraight.click();
+        } else  if (hairtype.equals("curly")){
+            hairTypeCurly.click();
+        } else {
+            System.out.println("hairtype changed");
+        }
+    }
+
+    public void setColoredHair(String coloredhair){
+
+        if (coloredhair.equals("wavy")){
+            colouredHairYes.click();
+        } else if (coloredhair.equals("straight")){
+            colouredHairNo.click();
+        } else {
+            System.out.println("coloredhair changed");
+        }
+    }
+
+    public void setHijaber(String hijab){
+
+        if (hijab.equals("yes")){
+            hijaberYes.click();
+        } else if (hijab.equals("no")){
+            hijaberNo.click();
+        } else {
+            System.out.println("is hijab changed");
+        }
+    }
+
 }
