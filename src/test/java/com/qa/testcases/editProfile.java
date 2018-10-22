@@ -81,6 +81,17 @@ public class editProfile extends TestBase {
 
     @Test
     public void EditProfile() {
+        assertions.waitForAgreementText();
+        onboardingpage.clickBtnLogin();
+        loginpage.inputUsername(prop.getProperty("username2"));
+        loginpage.inputPassword(prop.getProperty("password2"));
+        loginpage.hideKeyboard();
+        loginpage.tapBtnLogin();
+        assertions.waitForCloseBtnAppRate();
+        homepage.clickBtnCloseRate();
+        homepage.dismissToolTip();
+
+
 
     }
 }

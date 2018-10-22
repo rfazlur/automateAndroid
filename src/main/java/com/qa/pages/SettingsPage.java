@@ -289,4 +289,8 @@ public class SettingsPage extends TestBase {
         }
     }
 
+    public void hideKeyboard(){
+        driver.hideKeyboard();
+    }
+
 }
