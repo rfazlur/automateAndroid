@@ -143,8 +143,6 @@ public class SettingsPage extends TestBase {
 
 
 
-
-
     public SettingsPage(){
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
