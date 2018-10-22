@@ -36,6 +36,9 @@ public class SettingsPage extends TestBase {
     @AndroidFindBy(id = "com.fdbr.android.debug:id/txt_save")
     MobileElement headToolbarSaveEditProfile;
 
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/img_pencil")
+    MobileElement editPhotoProfile;
+
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_dob")
     MobileElement fieldDOB;
 
@@ -57,73 +60,89 @@ public class SettingsPage extends TestBase {
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_beauty_concern")
     MobileElement optionUpdateBC;
 
-    //-------------------option beauty profile
+            //-------------------option beauty profile
+            //skin type
+            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='6']")
+            MobileElement skinDry;
 
-    //skin type
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='6']")
-    MobileElement skinDry;
+            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='7']")
+            MobileElement skinNormal;
 
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='7']")
-    MobileElement skinNormal;
+            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
+            MobileElement skinCombination;
 
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
-    MobileElement skinCombination;
+            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='9']")
+            MobileElement skinOily;
 
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='9']")
-    MobileElement skinOily;
+            //skin tone
+            @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='9']")
+            MobileElement skinToneLight;
 
-    //skin tone
-    @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='9']")
-    MobileElement skinToneLight;
+            @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='10']")
+            MobileElement skinMedLight;
 
-    @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='10']")
-    MobileElement skinMedLight;
+            @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='11']")
+            MobileElement skinToneMed;
 
-    @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='11']")
-    MobileElement skinToneMed;
+            @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='12']")
+            MobileElement skinToneMedDark;
 
-    @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='12']")
-    MobileElement skinToneMedDark;
+            @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='13']")
+            MobileElement skinToneDark;
 
-    @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='13']")
-    MobileElement skinToneDark;
+            //skin undertone
+            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='16']")
+            MobileElement skinCool;
 
-    //skin undertone
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='16']")
-    MobileElement skinCool;
+            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='17']")
+            MobileElement skinNeutral;
 
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='17']")
-    MobileElement skinNeutral;
+            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='18']")
+            MobileElement skinWorm;
 
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='18']")
-    MobileElement skinWorm;
+            //hair type
+            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='9']") //element nya sama dengan skinOily
+            MobileElement hairTypeWavy;
 
-    //hair type
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='9']") //element nya sama dengan skinOily
-    MobileElement hairTypeWavy;
+            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='10']")
+            MobileElement hairTypeStraight;
 
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='10']")
-    MobileElement hairTypeStraight;
+            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='11']")
+            MobileElement hairTypeCurly;
 
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='11']")
-    MobileElement hairTypeCurly;
+            //colored hair
+            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='12']")
+            MobileElement colouredHairYes;
 
-    //colored hair
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='12']")
-    MobileElement colouredHairYes;
+            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='13']")
+            MobileElement colouredHairNo;
 
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='13']")
-    MobileElement colouredHairNo;
+            //are u hijaber ?
+            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='14']")
+            MobileElement hijaberYes;
 
-    //are u hijaber ?
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='14']")
-    MobileElement hijaberYes;
+            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='15']")
+            MobileElement hijaberNo;
 
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='15']")
-    MobileElement hijaberNo;
 
-    @AndroidFindBy(id = "com.fdbr.android.debug:id/fl_save")
-    MobileElement buttonSaveUpdateBeautyProf;
+        @AndroidFindBy(id = "com.fdbr.android.debug:id/fl_save")
+        MobileElement buttonSaveUpdateBeautyProf;
+
+        //Feedback option field
+        @AndroidFindBy(id = "com.fdbr.android.debug:id/toolbar_back_button_image")
+        MobileElement headToolbarBackFeedback;
+
+        @AndroidFindBy(id = "com.fdbr.android.debug:id/tv_questions")
+        MobileElement feedbackField;
+
+        @AndroidFindBy(id = "com.fdbr.android.debug:id/rl_send")
+        MobileElement buttonSendFeedback;
+
+        @AndroidFindBy(id = "android:id/button1")
+        MobileElement okToFillFieldFeedback;
+
+
+
 
 
     public SettingsPage(){

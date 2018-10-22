@@ -139,5 +139,10 @@ public class Assertions extends TestBase {
         wait.until(ExpectedConditions.elementToBeClickable(By.id("com.fdbr.android.debug:id/rel_editprofile")));
     }
 
+    //feedback assert
+    public void waitDialogFillFeedback(){
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("android:id/message")));
+    }
 
 }
