@@ -63,4 +63,20 @@ public class HomePage extends TestBase {
     public void clickBtnPlus(){
         btnPlus.click();
     }
+
+    public void clickHome(){
+        homeMenu.click();
+    }
+
+    public void clickFeed(){
+        homeFeed.click();
+    }
+
+    public void clickDiscover(){
+        homeDiscover.click();
+    }
+
+    public void clickProfile(){
+        homeProfile.click();
+    }
 }

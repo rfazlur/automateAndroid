@@ -74,12 +74,6 @@ public class editProfile extends TestBase {
     }
 
     @Test
-    public void SettingPage() {
-        profilePage.clickToolbarSetting();
-        assertions.waitEditProfileOption();
-    }
-
-    @Test
     public void EditProfile() {
         assertions.waitForAgreementText();
         onboardingpage.clickBtnLogin();
@@ -91,7 +85,7 @@ public class editProfile extends TestBase {
         homepage.clickBtnCloseRate();
         homepage.dismissToolTip();
 
-
+        homepage.clickProfile();
 
     }
 }

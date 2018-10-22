@@ -3,9 +3,9 @@
 <suite name="Default Suite">
     <test name="automateAndroid">
         <classes>
-            <class name="com.qa.testcases.AddReviewTest">
+            <class name="com.qa.testcases.editProfile">
                 <methods>
-                    <include name="addReviewAfterSignUp" />
+                    <include name="EditProfile" />
                 </methods>
             </class>
             <!--<class name="com.qa.testcases.LoginValidTest"><class name="com.qa.testcases.LoginValidTest">
