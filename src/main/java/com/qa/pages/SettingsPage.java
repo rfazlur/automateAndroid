@@ -254,19 +254,6 @@ public class SettingsPage extends TestBase {
         }
     }
 
-    public void setHairType(String hairtype){
-
-        if (hairtype.equals("wavy")){
-            hairTypeWavy.click();
-        } else if (hairtype.equals("straight")){
-            hairTypeStraight.click();
-        } else  if (hairtype.equals("curly")){
-            hairTypeCurly.click();
-        } else {
-            System.out.println("hairtype changed");
-        }
-    }
-
     public void setColoredHair(String coloredhair){
 
         if (coloredhair.equals("wavy")){
