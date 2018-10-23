@@ -112,9 +112,14 @@ public class editBeautyProfile extends TestBase {
         settingsPage.setSkinType(prop.getProperty("editskintype"));
         settingsPage.setSkinTone(prop.getProperty("editskintone"));
         settingsPage.setSkinUndertone(prop.getProperty("editskinundertone"));
+
+        TouchAction touchAction2 = new TouchAction(driver);
+        touchAction2.tap(new PointOption().withCoordinates(662, 689)).perform();
+
         settingsPage.setHairType(prop.getProperty("edithairtype"));
         settingsPage.setColoredHair(prop.getProperty("editcoloredhair"));
         settingsPage.setHijaber(prop.getProperty("edithijaber"));
+
         settingsPage.clickSaveNewBeaProf();
 
     }
