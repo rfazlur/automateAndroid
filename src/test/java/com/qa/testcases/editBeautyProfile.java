@@ -103,7 +103,7 @@ public class editBeautyProfile extends TestBase {
 
         }
 
-
+        settingsPage.clickUpdateBeautyPro();
 
     }
 }

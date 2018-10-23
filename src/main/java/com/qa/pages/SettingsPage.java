@@ -173,14 +173,32 @@ public class SettingsPage extends TestBase {
         optionEditProfile.click();
     }
 
-    public void editFullname(){
-        fieldUsername.clear();
-        fieldUsername.sendKeys("hahahaha");
-    }
+        public void editFullname(){
+            fieldUsername.clear();
+            fieldUsername.sendKeys("hahahaha");
+        }
 
-    public void editLocation(){
+        public void editLocation(){
+            fieldLocation.click();
+        }
 
-    }
+        public void editNumber(){
+            fieldPhone.clear();
+            fieldPhone.sendKeys("812849145951");
+        }
+
+        public void editBio(){
+            fieldBio.clear();
+            fieldBio.sendKeys("muehehehee");
+        }
+
+        public void clickUpdateBeautyPro(){
+            optionUpdateBP.click();
+        }
+
+        public void clickUpdateBeautyConc(){
+            optionUpdateBC.click();
+        }
 
     public void clickInviteFriends(){
         optionInviteFriends.click();
