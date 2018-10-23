@@ -3,20 +3,23 @@ package com.qa.testcases;
 import com.qa.base.TestBase;
 import com.qa.pages.*;
 import com.qa.util.Assertions;
+import com.qa.util.ValidateToast;
+import net.sourceforge.tess4j.TesseractException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class LoginValidTest extends TestBase {
+public class LoginTest extends TestBase {
 
     private OnBoardingPage onboardingpage;
     private LoginPage loginpage;
     private Assertions assertions;
     private HomePage homepage;
+    private ValidateToast validatetoast;
 
-    public LoginValidTest(){
+    public LoginTest(){
         super();
     }
 
@@ -27,6 +30,7 @@ public class LoginValidTest extends TestBase {
         loginpage = new LoginPage();
         assertions = new Assertions();
         homepage = new HomePage();
+        validatetoast = new ValidateToast();
     }
 
     @AfterMethod
@@ -58,5 +62,16 @@ public class LoginValidTest extends TestBase {
         assertions.waitForCloseBtnAppRate();
         homepage.clickBtnCloseRate();
         homepage.dismissToolTip();
+    }
+
+    @Test
+    public void loginWithWrongUsername() throws TesseractException {
+        assertions.waitForAgreementText();
+        onboardingpage.clickBtnLogin();
+        loginpage.inputUsername("putwiiiiiiiiiiid");
+        loginpage.inputPassword(prop.getProperty("password"));
+        loginpage.hideKeyboard();
+        loginpage.tapBtnLogin();
+        validatetoast.validateToastLoginFailed();
     }
 }

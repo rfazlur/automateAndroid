@@ -3,7 +3,7 @@
 <suite name="Default Suite">
     <test name="automateAndroid">
         <classes>
-            <!--<class name="com.qa.testcases.AddReviewTest">
+           <!-- <class name="com.qa.testcases.AddReviewTest">
                 <methods>
                     <include name="addReviewAfterSignUp" />
                 </methods>
@@ -13,6 +13,12 @@
                     <include name="loginUsingEmail" />
                 </methods>
             </class>
+            <class name="com.qa.testcases.LoginValidTest">
+                <methods>
+                    <include name="loginUsingUsername" />
+                </methods>
+            </class>
+
             <class name="com.qa.testcases.SignUpTest">
                 <methods>
                     <include name="registerNewUser" />
@@ -68,14 +74,14 @@
                     <include name="addReviewFromPlusButtonAfterLogin" />
                 </methods>
             </class>
-            <class name="com.qa.testcases.LoginInvalidTest">
-                <methods>
-                    <include name="loginInvalid" />
-                </methods>
-            </class>-->
             <class name="com.qa.testcases.AddPostTest">
                 <methods>
                     <include name="addPostAfterLoginWithoutTagProduct" />
+                </methods>
+            </class>-->
+            <class name="com.qa.testcases.LoginTest">
+                <methods>
+                    <include name="loginWithWrongUsername" />
                 </methods>
             </class>
         </classes>

@@ -6,6 +6,9 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
 public class TakePicturePage extends TestBase {
 
     @AndroidFindBy(id = "com.fdbr.android.debug:id/anchor")
@@ -14,8 +17,12 @@ public class TakePicturePage extends TestBase {
     MobileElement btnTakePicture;
     @AndroidFindBy(id = "com.android.packageinstaller:id/permission_allow_button")
     MobileElement btnAlowPermissionPhotoAccess;
-    @AndroidFindBy(xpath = "//android.widget.ImageView[@resource-id='com.fdbr.android.debug:id/toolbar_action_button_image']")
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/toolbar_action_button")
     MobileElement btnNext;
+    /*@AndroidFindBy(xpath = "//android.widget.LinearLayout[@resource-id='com.fdbr.android.debug:id/app_bar_layout']" +
+            "//android.widget.FrameLayout[@resource-id='com.fdbr.android.debug:id/fl_container']" +
+            "//android.widget.FrameLayout[@bounds='[912,72][1080,240]']")
+    MobileElement btnNext;*/
 
     public TakePicturePage(){
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);

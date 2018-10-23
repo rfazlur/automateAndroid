@@ -26,6 +26,9 @@ public class HomePage extends TestBase {
     MobileElement btnOKCameraPermission;
     @AndroidFindBy(id = "com.android.packageinstaller:id/permission_allow_button")
     MobileElement btnAllowTakePicture;
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/toolbar_notification_button")
+    MobileElement btnNotification;
+
 
     public HomePage(){
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
@@ -55,11 +58,27 @@ public class HomePage extends TestBase {
         btnPlus.click();
     }
 
-    public void clickBtnOKCameraPermission(){
+    /*public void clickBtnOKCameraPermission(){
         btnOKCameraPermission.click();
+    }*/
+
+    public void clickBtnOKCameraPermission(){
+        if(btnOKCameraPermission.isDisplayed()){
+            btnOKCameraPermission.click();
+        }
     }
 
-    public void clickBtnAllowTakePicture(){
+    /*public void clickBtnAllowTakePicture(){
         btnAllowTakePicture.click();
+    }*/
+
+    public void clickBtnAllowTakePicture(){
+        if(btnAllowTakePicture.isDisplayed()){
+            btnAllowTakePicture.click();
+        }
+    }
+
+    public void clickNotificationBell(){
+        btnNotification.click();
     }
 }

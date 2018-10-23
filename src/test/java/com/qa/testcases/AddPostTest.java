@@ -44,7 +44,7 @@ public class AddPostTest extends TestBase {
     }
 
     @Test
-    public void addPostAfterLoginWithoutTagProduct(){
+    public void addPostAfterLoginWithoutTagProduct() {
         assertions.waitForAgreementText();
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("username"));
@@ -61,6 +61,7 @@ public class AddPostTest extends TestBase {
         takepicturepage.dismissToolTipTakePicture();
         takepicturepage.clickBtnTakePicture();
         takepicturepage.clickBtnAllowPermission();
+        assertions.waitForNextButtonTakePicture();
         takepicturepage.clickBtnNext();
         addpostformpage.inputCaption(faker.lorem().sentence(2));
     }
