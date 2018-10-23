@@ -4,6 +4,8 @@ import com.github.javafaker.Faker;
 import com.qa.base.TestBase;
 import com.qa.pages.*;
 import com.qa.util.Assertions;
+import io.appium.java_client.touch.offset.PointOption;
+import org.openqa.selenium.Point;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -99,7 +101,9 @@ public class editBeautyProfile extends TestBase {
 
         for (int i=0;i<3;i++)
         {
-            new TouchAction(driver).press(662, 1328).waitAction(Duration.ofMillis(800)).moveTo(662, 689).release().perform();
+
+            TouchAction touchAction = new TouchAction(driver);
+            touchAction.tap(new PointOption().withCoordinates(662, 689)).perform();
 
         }
 

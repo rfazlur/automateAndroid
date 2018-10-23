@@ -204,6 +204,7 @@ public class SettingsPage extends TestBase {
             buttonSaveUpdateBeautyProf.click();
         }
 
+
     public void clickInviteFriends(){
         optionInviteFriends.click();
     }
