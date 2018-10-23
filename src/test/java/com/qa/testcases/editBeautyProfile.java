@@ -104,6 +104,13 @@ public class editBeautyProfile extends TestBase {
         }
 
         settingsPage.clickUpdateBeautyPro();
+        settingsPage.setSkinType(prop.getProperty("editskintype"));
+        settingsPage.setSkinTone(prop.getProperty("editskintone"));
+        settingsPage.setSkinUndertone(prop.getProperty("editskinundertone"));
+        settingsPage.setHairType(prop.getProperty("edithairtype"));
+        settingsPage.setColoredHair(prop.getProperty("editcoloredhair"));
+        settingsPage.setHijaber(prop.getProperty("edithijaber"));
+        settingsPage.clickSaveNewBeaProf();
 
     }
 }

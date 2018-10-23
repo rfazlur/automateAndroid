@@ -200,6 +200,10 @@ public class SettingsPage extends TestBase {
             optionUpdateBC.click();
         }
 
+        public void clickSaveNewBeaProf(){
+            buttonSaveUpdateBeautyProf.click();
+        }
+
     public void clickInviteFriends(){
         optionInviteFriends.click();
     }
@@ -256,7 +260,7 @@ public class SettingsPage extends TestBase {
         }
     }
 
-    public void setSkinUndertoneTone(String skinundertone){
+    public void setSkinUndertone(String skinundertone){
 
         if (skinundertone.equals("cool")){
             skinCool.click();
