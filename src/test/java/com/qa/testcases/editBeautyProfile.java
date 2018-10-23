@@ -98,6 +98,7 @@ public class editBeautyProfile extends TestBase {
         settingsPage.clickEditProfile();
 
         settingsPage.editFullname();
+        settingsPage.hideKeyboard();
 
         for (int i=0;i<3;i++)
         {
