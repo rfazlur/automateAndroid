@@ -3,9 +3,9 @@
 <suite name="Default Suite">
     <test name="automateAndroid">
         <classes>
-            <class name="com.qa.testcases.editProfile">
+            <class name="com.qa.testcases.editBeautyProfile">
                 <methods>
-                    <include name="EditProfile" />
+                    <include name="editBeautyProfile" />
                 </methods>
             </class>
             <!--<class name="com.qa.testcases.LoginValidTest"><class name="com.qa.testcases.LoginValidTest">

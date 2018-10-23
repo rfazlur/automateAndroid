@@ -168,8 +168,18 @@ public class SettingsPage extends TestBase {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
+    //edit profile
     public void clickEditProfile(){
         optionEditProfile.click();
+    }
+
+    public void editFullname(){
+        fieldUsername.clear();
+        fieldUsername.sendKeys("hahahaha");
+    }
+
+    public void editLocation(){
+
     }
 
     public void clickInviteFriends(){
