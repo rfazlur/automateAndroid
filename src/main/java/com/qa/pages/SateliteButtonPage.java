@@ -10,6 +10,8 @@ public class SateliteButtonPage extends TestBase {
 
     @AndroidFindBy(id = "com.fdbr.android.debug:id/iv_add_review")
     MobileElement btnAddReview;
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/iv_post_photo")
+    MobileElement btnAddPost;
 
     public SateliteButtonPage(){
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
@@ -17,6 +19,10 @@ public class SateliteButtonPage extends TestBase {
 
     public void clickBtnReview(){
         btnAddReview.click();
+    }
+
+    public void clickBtnPost(){
+        btnAddPost.click();
     }
 
 }

@@ -1,5 +1,6 @@
 package com.qa.testcases;
 
+import com.github.javafaker.Faker;
 import com.qa.base.TestBase;
 import com.qa.pages.*;
 import com.qa.util.Assertions;
@@ -9,24 +10,32 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class LoginValidTest extends TestBase {
+public class AddPostTest extends TestBase {
 
+    private Assertions assertions;
     private OnBoardingPage onboardingpage;
     private LoginPage loginpage;
-    private Assertions assertions;
     private HomePage homepage;
+    private SateliteButtonPage satelitebuttonpage;
+    private TakePicturePage takepicturepage;
+    private AddPostFormPage addpostformpage;
+    private Faker faker;
 
-    public LoginValidTest(){
+    public AddPostTest(){
         super();
     }
 
     @BeforeMethod
     public void setUp() throws IOException, InterruptedException {
         initialization();
+        assertions = new Assertions();
         onboardingpage = new OnBoardingPage();
         loginpage = new LoginPage();
-        assertions = new Assertions();
         homepage = new HomePage();
+        satelitebuttonpage = new SateliteButtonPage();
+        takepicturepage = new TakePicturePage();
+        addpostformpage = new AddPostFormPage();
+        faker = new Faker();
     }
 
     @AfterMethod
@@ -35,7 +44,7 @@ public class LoginValidTest extends TestBase {
     }
 
     @Test
-    public void loginUsingUsername(){
+    public void addPostAfterLoginWithoutTagProduct() {
         assertions.waitForAgreementText();
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("username"));
@@ -45,18 +54,16 @@ public class LoginValidTest extends TestBase {
         assertions.waitForCloseBtnAppRate();
         homepage.clickBtnCloseRate();
         homepage.dismissToolTip();
+        homepage.clickBtnPlus();
+        satelitebuttonpage.clickBtnPost();
+        homepage.clickBtnOKCameraPermission();
+        homepage.clickBtnAllowTakePicture();
+        takepicturepage.dismissToolTipTakePicture();
+        takepicturepage.clickBtnTakePicture();
+        takepicturepage.clickBtnAllowPermission();
+        assertions.waitForNextButtonTakePicture();
+        takepicturepage.clickBtnNext();
+        addpostformpage.inputCaption(faker.lorem().sentence(2));
     }
 
-    @Test
-    public void loginUsingEmail(){
-        assertions.waitForAgreementText();
-        onboardingpage.clickBtnLogin();
-        loginpage.inputUsername(prop.getProperty("email"));
-        loginpage.inputPassword(prop.getProperty("password"));
-        loginpage.hideKeyboard();
-        loginpage.tapBtnLogin();
-        assertions.waitForCloseBtnAppRate();
-        homepage.clickBtnCloseRate();
-        homepage.dismissToolTip();
-    }
 }
