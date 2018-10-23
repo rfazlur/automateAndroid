@@ -65,13 +65,35 @@ public class LoginTest extends TestBase {
     }
 
     @Test
-    public void loginWithWrongUsername() throws TesseractException {
+    public void loginWithWrongUsername() throws TesseractException, InterruptedException {
         assertions.waitForAgreementText();
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername("putwiiiiiiiiiiid");
         loginpage.inputPassword(prop.getProperty("password"));
         loginpage.hideKeyboard();
         loginpage.tapBtnLogin();
+        Thread.sleep(600);
         validatetoast.validateToastLoginFailed();
+    }
+
+    @Test
+    public void loginWithWrongPassword() throws TesseractException, InterruptedException {
+        assertions.waitForAgreementText();
+        onboardingpage.clickBtnLogin();
+        loginpage.inputUsername(prop.getProperty("username"));
+        loginpage.inputPassword("testerlalala");
+        loginpage.hideKeyboard();
+        loginpage.tapBtnLogin();
+        Thread.sleep(600);
+        validatetoast.validateToastLoginFailed();
+    }
+
+    @Test
+    public void loginWithEmptyPassword() throws TesseractException, InterruptedException {
+        assertions.waitForAgreementText();
+        onboardingpage.clickBtnLogin();
+        loginpage.inputUsername(prop.getProperty("username"));
+        loginpage.hideKeyboard();
+        loginpage.tapBtnLogin();
     }
 }
