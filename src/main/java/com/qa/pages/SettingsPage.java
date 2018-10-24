@@ -96,21 +96,21 @@ public class SettingsPage extends TestBase {
             @AndroidFindBy(xpath = "//android.widget.LinearLayout[@instance='12']")
             MobileElement skinToneMedDark;
 
-            @AndroidFindBy(xpath = "//android.widget.LinearLayout[@instance='13']")
+            @AndroidFindBy(xpath = "//android.widget.LinearLayout[@index='4']")
             MobileElement skinToneDark;
 
             //skin undertone
             @AndroidFindBy(id = "com.fdbr.android.debug:id/hsv_skin_undertones")
             MobileElement skinUnderToneElement;
 
-            @AndroidFindBy(xpath = "//android.widget.FrameLayout[@instance='16']")
+            @AndroidFindBy(xpath = "//android.widget.FrameLayout[@index='0']")
             MobileElement skinCool;
 
-            @AndroidFindBy(xpath = "//android.widget.FrameLayout[@instance='17']")
+            @AndroidFindBy(xpath = "//android.widget.FrameLayout[@index='1']")
             MobileElement skinNeutral;
 
-            @AndroidFindBy(xpath = "//android.widget.FrameLayout[@instance='18']")
-            MobileElement skinWorm;
+            @AndroidFindBy(xpath = "//android.widget.FrameLayout[@index='2']")
+            MobileElement skinWarm;
 
             //hair type
             @AndroidFindBy(id = "//com.fdbr.android.debug:id/hsv_hair_types")
@@ -268,7 +268,7 @@ public class SettingsPage extends TestBase {
         } else if (editskinundertone.equals("neutral")){
             skinNeutral.click();
         } else  if (editskinundertone.equals("worm")){
-            skinWorm.click();
+            skinWarm.click();
         } else {
             System.out.println("skin undertone changed");
         }
