@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class SetBeautyConcern extends TestBase {
+public class SetBeautyConcernTest extends TestBase {
 
     private Assertions assertions;
     private OnBoardingPage onboardingpage;
@@ -23,7 +23,7 @@ public class SetBeautyConcern extends TestBase {
     private BodyConcernsPage bodyconcernspage;
     private HairConcernsPage hairconcernspage;
 
-    public SetBeautyConcern(){
+    public SetBeautyConcernTest(){
         super();
     }
 
