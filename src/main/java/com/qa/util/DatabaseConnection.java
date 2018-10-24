@@ -2,7 +2,7 @@ package com.qa.util;
 
 import java.sql.*;
 import java.util.ArrayList;
-
+//
 public class DatabaseConnection {
 
     public static Object getDataUsername(String query, String database) {
