@@ -68,26 +68,26 @@ public class SettingsPage extends TestBase {
             @AndroidFindBy(id = "com.fdbr.android.debug:id/hsv_skin_types")
             MobileElement skinTypeElement;
 
-            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='6']")
+            @AndroidFindBy(xpath = "//android.widget.FrameLayout[@instance='6']")
             MobileElement skinDry;
 
-            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='7']")
+            @AndroidFindBy(xpath = "//android.widget.FrameLayout[@instance='7']")
             MobileElement skinNormal;
 
-            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
+            @AndroidFindBy(xpath = "//android.widget.FrameLayout[@instance='8']")
             MobileElement skinCombination;
 
-            @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='9']")
+            @AndroidFindBy(xpath = "//android.widget.FrameLayout[@instance='9']")
             MobileElement skinOily;
 
             //skin tone
-            @AndroidFindBy(id = "com.fdbr.android.debug:id/ll_skin_tones")
+            @AndroidFindBy(id = "//com.fdbr.android.debug:id/ll_skin_tones")
             MobileElement skinToneElement;
 
-            @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='9']")
+            @AndroidFindBy(xpath = "//android.widget.LinearLayout[@instance='9']")
             MobileElement skinToneLight;
 
-            @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='10']")
+            @AndroidFindBy(xpath = "//android.widget.LinearLayout[@instance='10']")
             MobileElement skinMedLight;
 
             @AndroidFindBy(xpath = "android.widget.LinearLayout[@instance='11']")
