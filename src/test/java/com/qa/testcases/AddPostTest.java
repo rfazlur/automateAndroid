@@ -49,7 +49,8 @@ public class AddPostTest extends TestBase {
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("username"));
         loginpage.inputPassword(prop.getProperty("password"));
-        loginpage.hideKeyboard();
+        hideKeyboard();
+        //loginpage.hideKeyboard();
         loginpage.tapBtnLogin();
         assertions.waitForCloseBtnAppRate();
         homepage.clickBtnCloseRate();

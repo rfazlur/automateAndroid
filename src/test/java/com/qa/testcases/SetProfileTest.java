@@ -23,5 +23,4 @@ public class SetProfileTest extends TestBase {
     }
 
 
-
 }

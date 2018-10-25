@@ -136,7 +136,8 @@ public class SignUpTest extends TestBase {
         signuppage.inputEmail(faker.internet().safeEmailAddress());
         signuppage.inputUsername(faker.internet().slug());
         signuppage.inputPassword(faker.internet().password());
-        signuppage.hideKeyboard();
+        hideKeyboard();
+        //signuppage.hideKeyboard();
         signuppage.tapContinueButton();
 
         //input DOB
@@ -152,7 +153,8 @@ public class SignUpTest extends TestBase {
         signuppage.inputEmail(prop.getProperty("email"));
         signuppage.inputUsername(faker.internet().slug());
         signuppage.inputPassword(faker.internet().password());
-        signuppage.hideKeyboard();
+        hideKeyboard();
+        //signuppage.hideKeyboard();
         signuppage.tapContinueButton();
 
         //cek message from API
@@ -167,7 +169,8 @@ public class SignUpTest extends TestBase {
         signuppage.inputEmail(faker.internet().safeEmailAddress());
         signuppage.inputUsername(prop.getProperty("username"));
         signuppage.inputPassword(faker.internet().password());
-        signuppage.hideKeyboard();
+        hideKeyboard();
+        //signuppage.hideKeyboard();
         signuppage.tapContinueButton();
 
         //cek message from API

@@ -82,4 +82,8 @@ public class TestBase {
         driver = new AndroidDriver(new URL("http://"+serverLoc+":"+portNumber+"/wd/hub"), caps);
         driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
     }
+
+    public void hideKeyboard(){
+        driver.hideKeyboard();
+    }
 }

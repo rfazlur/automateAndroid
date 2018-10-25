@@ -48,7 +48,8 @@ public class DOBTest extends TestBase {
         signuppage.inputEmail(faker.internet().safeEmailAddress());
         signuppage.inputUsername(faker.internet().slug());
         signuppage.inputPassword(faker.internet().password());
-        signuppage.hideKeyboard();
+        hideKeyboard();
+        //signuppage.hideKeyboard();
         signuppage.tapContinueButton();
 
         //input DOB

@@ -44,7 +44,8 @@ public class LoginTest extends TestBase {
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("username"));
         loginpage.inputPassword(prop.getProperty("password"));
-        loginpage.hideKeyboard();
+        hideKeyboard();
+        //loginpage.hideKeyboard();
         loginpage.tapBtnLogin();
         assertions.waitForCloseBtnAppRate();
         homepage.clickBtnCloseRate();
@@ -57,7 +58,8 @@ public class LoginTest extends TestBase {
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("email"));
         loginpage.inputPassword(prop.getProperty("password"));
-        loginpage.hideKeyboard();
+        hideKeyboard();
+        //loginpage.hideKeyboard();
         loginpage.tapBtnLogin();
         assertions.waitForCloseBtnAppRate();
         homepage.clickBtnCloseRate();
@@ -70,7 +72,8 @@ public class LoginTest extends TestBase {
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername("putwiiiiiiiiiiid");
         loginpage.inputPassword(prop.getProperty("password"));
-        loginpage.hideKeyboard();
+        hideKeyboard();
+        //loginpage.hideKeyboard();
         loginpage.tapBtnLogin();
         Thread.sleep(600);
         validatetoast.validateToastLoginFailed();
@@ -82,18 +85,20 @@ public class LoginTest extends TestBase {
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("username"));
         loginpage.inputPassword("testerlalala");
-        loginpage.hideKeyboard();
+        hideKeyboard();
+        //loginpage.hideKeyboard();
         loginpage.tapBtnLogin();
         Thread.sleep(600);
         validatetoast.validateToastLoginFailed();
     }
 
     @Test
-    public void loginWithEmptyPassword() throws TesseractException, InterruptedException {
+    public void loginWithEmptyPassword() {
         assertions.waitForAgreementText();
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("username"));
-        loginpage.hideKeyboard();
+        hideKeyboard();
+        //loginpage.hideKeyboard();
         loginpage.tapBtnLogin();
     }
 }
