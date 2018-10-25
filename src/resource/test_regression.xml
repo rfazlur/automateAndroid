@@ -3,98 +3,16 @@
 <suite name="Android Application Test Automation Test Suite">
     <test name="Android Automation Test Cases">
         <classes>
-            <class name="com.qa.testcases.LoginTest">
-                <methods>
-                    <include name="loginUsingUsername"/>
-                </methods>
-                <methods>
-                    <include name="loginUsingEmail"/>
-                </methods>
-                <methods>
-                    <include name="loginWithWrongUsername"/>
-                </methods>
-            </class>
-           <!-- <class name="com.qa.testcases.AddReviewTest">
-                <methods>
-                    <include name="addReviewAfterSignUp" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.LoginValidTest">
-                <methods>
-                    <include name="loginUsingEmail" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.LoginValidTest">
-                <methods>
-                    <include name="loginUsingUsername" />
-                </methods>
-            </class>
+            <class name="com.qa.testcases.AddPostTest"/>
+            <class name="com.qa.testcases.AddReviewTest"/>
+            <class name="com.qa.testcases.DOBTest"/>
+            <class name="com.qa.testcases.editProfile"/>
+            <class name="com.qa.testcases.LoginTest"/>
+            <class name="com.qa.testcases.SetBeautyConcernTest"/>
+            <class name="com.qa.testcases.SetBeautyProfileTest"/>
+            <class name="com.qa.testcases.SetProfileTest"/>
+            <class name="com.qa.testcases.SignUpTest"/>
 
-            <class name="com.qa.testcases.SignUpTest">
-                <methods>
-                    <include name="registerNewUser" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.AddReviewTest">
-                <methods>
-                    <include name="addReviewAfterSignUp" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.AddReviewTest">
-                <methods>
-                    <include name="addReviewAfterLogin" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.AddReviewTest">
-                <methods>
-                    <include name="addReviewFromPlusButtonAfterSignUp" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.AddReviewTest">
-                <methods>
-                    <include name="addReviewFromPlusButtonAfterLogin" />
-                </methods>
-            </class >
-            <class name="com.qa.testcases.LoginValidTest">
-                <methods>
-                    <include name="loginUsingEmail" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.SignUpTest">
-                <methods>
-                    <include name="registerNewUser" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.AddReviewTest">
-                <methods>
-                    <include name="addReviewAfterSignUp" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.AddReviewTest">
-                <methods>
-                    <include name="addReviewAfterLogin" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.AddReviewTest">
-                <methods>
-                    <include name="addReviewFromPlusButtonAfterSignUp" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.AddReviewTest">
-                <methods>
-                    <include name="addReviewFromPlusButtonAfterLogin" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.AddPostTest">
-                <methods>
-                    <include name="addPostAfterLoginWithoutTagProduct" />
-                </methods>
-            </class>
-            <class name="com.qa.testcases.LoginTest">
-                <methods>
-                    <include name="loginWithWrongUsername" />
-                </methods>
-            </class>-->
         </classes>
     </test> <!-- automateAndroid -->
 </suite> <!-- Default Suite -->
