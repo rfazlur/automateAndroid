@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Default Suite">
-    <test name="automateAndroid">
+<suite name="Android Application Test Automation Test Suite">
+    <test name="Android Automation Test Cases">
         <classes>
+            <class name="com.qa.testcases.LoginTest">
+                <methods>
+                    <include name="loginUsingUsername"/>
+                </methods>
+                <methods>
+                    <include name="loginUsingEmail"/>
+                </methods>
+                <methods>
+                    <include name="loginWithWrongUsername"/>
+                </methods>
+            </class>
            <!-- <class name="com.qa.testcases.AddReviewTest">
                 <methods>
                     <include name="addReviewAfterSignUp" />
@@ -78,12 +89,12 @@
                 <methods>
                     <include name="addPostAfterLoginWithoutTagProduct" />
                 </methods>
-            </class>-->
+            </class>
             <class name="com.qa.testcases.LoginTest">
                 <methods>
                     <include name="loginWithWrongUsername" />
                 </methods>
-            </class>
+            </class>-->
         </classes>
     </test> <!-- automateAndroid -->
 </suite> <!-- Default Suite -->

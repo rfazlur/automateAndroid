@@ -27,13 +27,13 @@ public class TestBase {
     public static AppiumDriver driver;
     private static String cwd = System.getProperty("user.dir");
 
-    //node and appium on Pras local
-    /*static String nodePath = "/usr/local/bin/node";
-    static String appiumPath = "/usr/local/bin/appium";*/
+    //node and appium on mac
+    static String nodePath = "/Users/fdn-faiz/.nvm/versions/node/v11.0.0/bin/node";
+    static String appiumPath = "/Users/fdn-faiz/.nvm/versions/node/v11.0.0/bin/appium";
 
-    //node and appium on Faiz local
-    static String nodePath = "/home/faiz/.nvm/versions/node/v10.11.0/bin/node";
-    static String appiumPath = "/home/faiz/.nvm/versions/node/v10.11.0/bin/appium";
+    //node and appium on ubuntu
+    /*static String nodePath = "/home/faiz/.nvm/versions/node/v10.11.0/bin/node";
+    static String appiumPath = "/home/faiz/.nvm/versions/node/v10.11.0/bin/appium";*/
 
     static AppiumDriverLocalService appiumservice;
 
