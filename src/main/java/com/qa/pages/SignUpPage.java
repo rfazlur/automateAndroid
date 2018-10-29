@@ -36,9 +36,9 @@ public class SignUpPage extends TestBase {
         txtPassword.sendKeys(passwd);
     }
 
-    public void hideKeyboard(){
+    /*public void hideKeyboard(){
         driver.hideKeyboard();
-    }
+    }*/
 
     public void tapContinueButton(){
         btnContinue.click();

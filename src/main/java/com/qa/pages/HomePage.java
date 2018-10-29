@@ -2,6 +2,7 @@ package com.qa.pages;
 
 import com.qa.base.TestBase;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AndroidBy;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
@@ -28,6 +29,8 @@ public class HomePage extends TestBase {
     MobileElement btnAllowTakePicture;
     @AndroidFindBy(id = "com.fdbr.android.debug:id/toolbar_notification_button")
     MobileElement btnNotification;
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Profile']")
+    MobileElement btnProfile;
 
 
     public HomePage(){
@@ -80,5 +83,9 @@ public class HomePage extends TestBase {
 
     public void clickNotificationBell(){
         btnNotification.click();
+    }
+
+    public void clickProfileButton(){
+        btnProfile.click();
     }
 }

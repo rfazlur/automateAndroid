@@ -3,9 +3,9 @@
 <suite name="Android Application Test Automation Test Suite">
     <test name="Android Automation Test Cases">
         <classes>
-            <class name="com.qa.testcases.LoginTest">
+            <class name="com.qa.testcases.editProfile">
                 <methods>
-                    <include name="loginUsingUsername"/>
+                    <include name="updateBeautyProfile"/>
                 </methods>
             </class>
         </classes>

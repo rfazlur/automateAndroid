@@ -10,50 +10,35 @@ public class SettingsPage extends TestBase {
 
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_editprofile")
     MobileElement optionEditProfile;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_invitefriend")
     MobileElement optionInviteFriends;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_cs")
     MobileElement optionFeedback;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_rate")
     MobileElement optionRateApp;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_ppo")
     MobileElement optionPrivacyPolicy;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_logout")
     MobileElement optionLogout;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/toolbar_back_button")
     MobileElement headToolbarBack;
-
     //edit profile field
     @AndroidFindBy(id = "com.fdbr.android.debug:id/img_back")
     MobileElement headToolbarBackEditProfile;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/txt_save")
     MobileElement headToolbarSaveEditProfile;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_dob")
     MobileElement fieldDOB;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/edt_name")
     MobileElement fieldUsername;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_location")
     MobileElement fieldLocation;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/edt_phone_number")
     MobileElement fieldPhone;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_bio")
     MobileElement fieldBio;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_beauty_id")
     MobileElement optionUpdateBP;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_beauty_concern")
     MobileElement optionUpdateBC;
 
@@ -62,13 +47,10 @@ public class SettingsPage extends TestBase {
     //skin type
     @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
     MobileElement skinOily;
-
     @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
     MobileElement skinDry;
-
     @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
     MobileElement skinNormal;
-
     @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
     MobileElement skinCombination;
 

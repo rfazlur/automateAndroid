@@ -33,6 +33,8 @@ public class editProfile extends TestBase {
     private SateliteButtonPage satelitebuttonpage;
     private AddReviewChooseProductPage addreviewChooseProductpage;
     private ProfilePage profilePage;
+    private SettingsPage settingspage;
+    private EditProfilePage editprofilepage;
 
     public editProfile(){
         super();
@@ -63,6 +65,8 @@ public class editProfile extends TestBase {
         satelitebuttonpage = new SateliteButtonPage();
         addreviewChooseProductpage = new AddReviewChooseProductPage();
         profilePage = new ProfilePage();
+        settingspage = new SettingsPage();
+        editprofilepage = new EditProfilePage();
         //cek
     }
 
@@ -72,13 +76,56 @@ public class editProfile extends TestBase {
     }
 
     @Test
-    public void SettingPage() {
+    public void changeProfilePicture(){
+        assertions.waitForAgreementText();
+        onboardingpage.clickBtnLogin();
+        loginpage.inputUsername(prop.getProperty("username"));
+        loginpage.inputPassword(prop.getProperty("password"));
+        hideKeyboard();
+        loginpage.tapBtnLogin();
+        assertions.waitForCloseBtnAppRate();
+        homepage.clickBtnCloseRate();
+        homepage.dismissToolTip();
+        homepage.clickProfileButton();
         profilePage.clickToolbarSetting();
-        assertions.waitEditProfileOption();
+        settingspage.clickEditProfile();
+        editprofilepage.clickButtonTakePicture();
     }
 
     @Test
-    public void EditProfile() {
+    public void changeDOB(){
 
+    }
+
+    @Test
+    public void changeFullName(){
+
+    }
+
+    @Test
+    public void changeLocation(){
+
+    }
+
+    @Test
+    public void changePhoneNumber(){
+
+    }
+
+    @Test
+    public void updateBeautyProfile() throws InterruptedException {
+        assertions.waitForAgreementText();
+        onboardingpage.clickBtnLogin();
+        loginpage.inputUsername(prop.getProperty("username"));
+        loginpage.inputPassword(prop.getProperty("password"));
+        hideKeyboard();
+        loginpage.tapBtnLogin();
+        assertions.waitForCloseBtnAppRate();
+        homepage.clickBtnCloseRate();
+        homepage.dismissToolTip();
+        homepage.clickProfileButton();
+        profilePage.clickToolbarSetting();
+        settingspage.clickEditProfile();
+        editprofilepage.scrollTillUpdateBeautyConcern();
     }
 }

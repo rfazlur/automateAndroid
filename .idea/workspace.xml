@@ -2,15 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ed826bf-38a3-4086-9df9-a3e821343611" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/testcases/AddPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/testcases/AddPostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/testcases/AddReviewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/testcases/AddReviewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/testcases/DOBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/testcases/DOBTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/testcases/SetBeautyConcernTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/testcases/SetBeautyConcernTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/testcases/SetBeautyProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/testcases/SetBeautyProfileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/testcases/SetProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/testcases/SetProfileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/pages/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/pages/SettingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/pages/SettingsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/pages/SignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/test_sanity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/test_sanity.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/testcases/editProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/testcases/editProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/base/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/AddPostFormPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/AddPostFormPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/AddReviewChooseProductPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/AddReviewChooseProductPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/BodyConcernsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/BodyConcernsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/DOBPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/DOBPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/FindFriendPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/FindFriendPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/HairConcernsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/HairConcernsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/HairPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/HairPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/LocationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/LocationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/OnBoardingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/OnBoardingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/ProductCategoryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/ProductCategoryPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/ProductDetailPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/ProductDetailPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/ProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/ProfilePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/ReviewFormPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/ReviewFormPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/SateliteButtonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/SateliteButtonPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/SettingsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/SettingsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/SignUpPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/SignUpPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/SignUpProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/SignUpProfilePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/SkinConcernsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/SkinConcernsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/SkinPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/SkinPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/pages/TakePicturePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/pages/TakePicturePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/Assertions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/util/Assertions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/util/DatabaseConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/TestUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/util/TestUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/ValidateToast.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/util/ValidateToast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/util/prodItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/util/prodItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/AddPostTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/AddPostTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/AddReviewTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/AddReviewTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/DOBTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/DOBTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/SetBeautyConcernTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/SetBeautyConcernTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/SetBeautyProfileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/SetBeautyProfileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/SetProfileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/SetProfileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/SignUpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/SignUpTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/editProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/testcases/editProfile.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -213,96 +251,42 @@
     <session id="-869971319">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
+          <entry key="java" value="46" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="5" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="46" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="309" />
-          <entry key="xml" value="147" />
+          <entry key="java" value="2358" />
+          <entry key="xml" value="148" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="309" />
-          <entry key="XML" value="147" />
+          <entry key="JAVA" value="2358" />
+          <entry key="XML" value="148" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/AddReviewTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="295" column="23" selection-start-line="295" selection-start-column="23" selection-end-line="295" selection-end-column="23" />
-              <folding>
-                <element signature="e#1239#1240#0" expanded="true" />
-                <element signature="e#1262#1263#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/SetBeautyConcernTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="157" column="10" selection-start-line="157" selection-start-column="10" selection-end-line="157" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/SetBeautyProfileTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/DOBTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/editProfile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-501">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/SetProfileTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -315,47 +299,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/ProfilePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2340">
-              <caret line="169" column="63" lean-forward="true" selection-start-line="169" selection-start-column="63" selection-end-line="169" selection-end-column="63" />
+            <state relative-caret-position="465">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/AddPostTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1203#1204#0" expanded="true" />
-                <element signature="e#1232#1233#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="85" column="28" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="28" />
-              <folding>
-                <element signature="e#3167#3168#0" expanded="true" />
-                <element signature="e#3188#3189#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/LoginPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SignUpProfilePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/Assertions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1965">
+              <caret line="136" column="16" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -377,6 +343,7 @@
       <find>loginUsingUsername</find>
       <find>addPostAfterLoginWithoutTagProduct</find>
       <find>loginWithWrongUsername</find>
+      <find>com.fdbr.android.debug:id/rel_editprofile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -392,10 +359,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/examle/Random.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/RandomSkinType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/RandomSelect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/SkinPageV2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/SkinConcernsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/HairPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/HairConcernsPage.java" />
@@ -403,8 +366,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/LocationPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/FindFriendPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/ProductDetailPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/SignUpPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/ProductCategoryPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/BodyConcernsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/DOBPage.java" />
@@ -416,15 +377,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/DatabaseConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/prodItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/ProfilePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/AddReviewChooseProductPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/editProfile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/ReviewFormPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/TakePicturePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/Assertions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/config/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginValidTest.java" />
         <option value="$PROJECT_DIR$/src/resource/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/ValidateToast.java" />
@@ -433,7 +390,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/SetBeautyProfile.java" />
         <option value="$PROJECT_DIR$/src/resource/testng.xml" />
         <option value="$PROJECT_DIR$/src/resource/test_regression.xml" />
-        <option value="$PROJECT_DIR$/src/resource/test_sanity.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/SetProfileTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginTest.java" />
@@ -442,7 +398,18 @@
         <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/DOBTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/SetBeautyConcernTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/SetBeautyProfileTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/SignUpPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/ProfilePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/SettingsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/ScrollScreen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/Scrolling.java" />
+        <option value="$PROJECT_DIR$/src/resource/test_sanity.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/editProfile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/pages/EditProfilePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/util/Assertions.java" />
       </list>
     </option>
   </component>
@@ -460,7 +427,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -473,8 +440,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -539,6 +506,15 @@
               <item name="automateAndroid" type="b2602c69:ProjectViewProjectNode" />
               <item name="automateAndroid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automateAndroid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automateAndroid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -570,7 +546,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540443075161" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540550465392" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resource/testng.xml" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -598,9 +574,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FDNApp">
+  <component name="RunManager" selected="TestNG.Sanity">
     <configuration name="FDNApp" type="TestNG" factoryName="TestNG">
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/resource/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Regression" type="TestNG" factoryName="TestNG">
+      <module name="automateFDBRApp" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/resource/test_regression.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sanity" type="TestNG" factoryName="TestNG">
+      <module name="automateFDBRApp" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/resource/test_sanity.xml" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -633,6 +643,8 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.FDNApp" />
+      <item itemvalue="TestNG.Sanity" />
+      <item itemvalue="TestNG.Regression" />
       <item itemvalue="TestNG.com.qa.testcases" />
     </list>
     <recent_temporary>
@@ -655,41 +667,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FDNApp - 2018.10.23 at 14h 29m 55s.xml">
-      <configuration name="FDNApp" configurationId="TestNG" />
+    <history-entry file="Sanity - 2018.10.25 at 15h 07m 28s.xml">
+      <configuration name="Sanity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FDNApp - 2018.10.23 at 14h 35m 05s.xml">
-      <configuration name="FDNApp" configurationId="TestNG" />
+    <history-entry file="Sanity - 2018.10.25 at 15h 12m 23s.xml">
+      <configuration name="Sanity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FDNApp - 2018.10.23 at 14h 37m 26s.xml">
-      <configuration name="FDNApp" configurationId="TestNG" />
+    <history-entry file="Sanity - 2018.10.25 at 15h 18m 00s.xml">
+      <configuration name="Sanity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FDNApp - 2018.10.23 at 14h 39m 15s.xml">
-      <configuration name="FDNApp" configurationId="TestNG" />
+    <history-entry file="Sanity - 2018.10.25 at 15h 22m 25s.xml">
+      <configuration name="Sanity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FDNApp - 2018.10.23 at 14h 40m 38s.xml">
-      <configuration name="FDNApp" configurationId="TestNG" />
+    <history-entry file="Sanity - 2018.10.25 at 15h 27m 41s.xml">
+      <configuration name="Sanity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FDNApp - 2018.10.23 at 14h 43m 33s.xml">
-      <configuration name="FDNApp" configurationId="TestNG" />
+    <history-entry file="Sanity - 2018.10.25 at 15h 31m 27s.xml">
+      <configuration name="Sanity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FDNApp - 2018.10.23 at 14h 45m 00s.xml">
-      <configuration name="FDNApp" configurationId="TestNG" />
+    <history-entry file="Sanity - 2018.10.25 at 15h 34m 31s.xml">
+      <configuration name="Sanity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FDNApp - 2018.10.23 at 14h 45m 24s.xml">
-      <configuration name="FDNApp" configurationId="TestNG" />
+    <history-entry file="Sanity - 2018.10.25 at 15h 40m 36s.xml">
+      <configuration name="Sanity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FDNApp - 2018.10.23 at 14h 46m 14s.xml">
-      <configuration name="FDNApp" configurationId="TestNG" />
+    <history-entry file="Sanity - 2018.10.25 at 15h 47m 02s.xml">
+      <configuration name="Sanity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FDNApp - 2018.10.23 at 14h 47m 10s.xml">
-      <configuration name="FDNApp" configurationId="TestNG" />
+    <history-entry file="Sanity - 2018.10.25 at 15h 49m 47s.xml">
+      <configuration name="Sanity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FDNApp - 2018.10.23 at 14h 59m 51s.xml">
-      <configuration name="FDNApp" configurationId="TestNG" />
+    <history-entry file="Sanity - 2018.10.25 at 17h 33m 36s.xml">
+      <configuration name="Sanity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FDNApp - 2018.10.25 at 10h 19m 36s.xml">
-      <configuration name="FDNApp" configurationId="TestNG" />
+    <history-entry file="Sanity - 2018.10.25 at 18h 03m 54s.xml">
+      <configuration name="Sanity" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -702,10 +714,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49905482" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49905482" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" sideWeight="0.50094515" side_tool="true" weight="0.2769477" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -713,16 +724,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32992035" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287827" />
-      <window_info anchor="bottom" x="0" y="64" width="1920" height="979" id="Debug" order="3" sideWeight="0.49839914" visible="true" weight="0.29839572" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32834226" />
+      <window_info anchor="bottom" x="0" y="64" width="1920" height="979" id="Debug" order="3" sideWeight="0.49839914" weight="0.29839572" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32992035" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32992035" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50160086" side_tool="true" weight="0.29920363" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3287827" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32834226" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497332" />
@@ -737,44 +748,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/Assertions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="145" column="5" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/TakePicturePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginInvalidTest.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/22-10-2018__07_28_38PM.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/22-10-2018__07_40_03PM.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/22-10-2018__07_41_41PM.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/22-10-2018__07_45_09PM.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/23-10-2018__01_34_15PM.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/23-10-2018__01_30_32PM.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/23-10-2018__01_35_08PM.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/23-10-2018__01_36_49PM.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/23-Oct-2018__02_02_37PM.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/23-Oct-2018__02_04_14PM.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/23-Oct-2018__02_05_45PM.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/23-Oct-2018__02_07_12PM.png" />
@@ -816,20 +789,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/test_sanity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/testng.xml" />
     <entry file="file://$PROJECT_DIR$/src/resource/test_regression.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -848,20 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="100" column="10" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/AddPostTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -874,28 +820,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/AddReviewTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="295" column="23" selection-start-line="295" selection-start-column="23" selection-end-line="295" selection-end-column="23" />
-          <folding>
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/DOBTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/editProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-501">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -919,6 +847,139 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/AddPostFormPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/AddReviewChooseProductPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/BodyConcernsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/OnBoardingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SignUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SettingsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="44" column="45" lean-forward="true" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+          <folding>
+            <element signature="e#2787#2788#0" expanded="true" />
+            <element signature="e#2821#2822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/Scrolling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/test_sanity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/editProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="128" column="36" selection-start-line="128" selection-start-column="36" selection-end-line="128" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/ReviewFormPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="22" selection-start-line="40" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SkinConcernsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/EditProfilePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/AddReviewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="295" column="23" selection-start-line="295" selection-start-column="23" selection-end-line="295" selection-end-column="23" />
+          <folding>
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="51" column="34" selection-start-line="48" selection-start-column="8" selection-end-line="51" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/SetProfileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -929,10 +990,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/testcases/SignUpTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/ProfilePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="169" column="63" lean-forward="true" selection-start-line="169" selection-start-column="63" selection-end-line="169" selection-end-column="63" />
+        <state relative-caret-position="465">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/pages/SignUpProfilePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/Assertions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1965">
+          <caret line="136" column="16" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="16" />
         </state>
       </provider>
     </entry>

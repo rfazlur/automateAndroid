@@ -10,28 +10,20 @@ public class ProfilePage extends TestBase {
 
     @AndroidFindBy(id = "com.fdbr.android.debug:id/ll_followers")
     MobileElement btnFollowers;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/ll_following")
     MobileElement btnFollowing;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/iv_expand_arrow")
     MobileElement btnXpandArrow;
-
     @AndroidFindBy(xpath = "//android.support.v7.app.ActionBar.Tab[@index='0']")
     MobileElement btnTabPost;
-
     @AndroidFindBy(xpath = "//android.support.v7.app.ActionBar.Tab[@index='1']")
     MobileElement btnTabReview;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/toolbar_facebook_friend")
     MobileElement headToolbarFacebook;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/toolbar_wishlist_image")
     MobileElement headToolbarWishlist;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/toolbar_settings")
     MobileElement headToolbarSettting;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/tv_beauty_points")
     MobileElement btnBeautyPoints;
 
