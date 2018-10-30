@@ -57,8 +57,8 @@ public class AddPostTest extends TestBase {
         homepage.dismissToolTip();
         homepage.clickBtnPlus();
         satelitebuttonpage.clickBtnPost();
-        homepage.clickBtnOKCameraPermission();
-        homepage.clickBtnAllowTakePicture();
+        /*homepage.clickBtnOKCameraPermission();
+        homepage.clickBtnAllowTakePicture();*/
         takepicturepage.dismissToolTipTakePicture();
         takepicturepage.clickBtnTakePicture();
         takepicturepage.clickBtnAllowPermission();

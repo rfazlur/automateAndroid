@@ -134,28 +134,15 @@ public class Assertions extends TestBase {
     }
 
     //profile assertions
-    public void waitProfilePage(){
-        wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.elementToBeClickable(By.id("com.fdbr.android.debug:id/ll_beauty_id")));
-    }
-
-    //edit profile assertions
     public void waitEditProfileOption(){
         wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(By.id("com.fdbr.android.debug:id/rel_editprofile")));
     }
 
-<<<<<<< HEAD
-    //feedback assert
-    public void waitDialogFillFeedback(){
-        wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.elementToBeClickable(By.id("android:id/message")));
-=======
     public void waitForNextButtonTakePicture(){
         wait = new WebDriverWait(driver, 20);
         //wait.until(ExpectedConditions.elementToBeClickable(By.id("com.fdbr.android.debug:id/toolbar_action_button")));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/toolbar_action_button")));
->>>>>>> c0da3f0135d02e696a79ccf5b8f1f0dcfbe60be7
     }
 
 }
