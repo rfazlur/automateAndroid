@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test name="automateAndroid">
+        <classes>
+            <class name="com.qa.testcases.editBeautyProfile">
+                <methods>
+                    <include name="editBeautyProfile" />
+                </methods>
+            </class>
+            <!--<class name="com.qa.testcases.LoginValidTest"><class name="com.qa.testcases.LoginValidTest">
+                <methods>
+                    <include name="loginUsingEmail" />
+                </methods>
+            </class>
+            <class name="com.qa.testcases.SignUpTest">
+                <methods>
+                    <include name="registerNewUser" />
+                </methods>
+            </class>
+            <class name="com.qa.testcases.AddReviewTest">
+                <methods>
+                    <include name="addReviewAfterSignUp" />
+                </methods>
+            </class>
+            <class name="com.qa.testcases.AddReviewTest">
+                <methods>
+                    <include name="addReviewAfterLogin" />
+                </methods>
+            </class>
+            <class name="com.qa.testcases.AddReviewTest">
+                <methods>
+                    <include name="addReviewFromPlusButtonAfterSignUp" />
+                </methods>
+            </class>
+            <class name="com.qa.testcases.AddReviewTest">
+                <methods>
+                    <include name="addReviewFromPlusButtonAfterLogin" />
+                </methods>
+            </class>
+                <methods>
+                    <include name="loginUsingEmail" />
+                </methods>
+            </class>
+            <class name="com.qa.testcases.SignUpTest">
+                <methods>
+                    <include name="registerNewUser" />
+                </methods>
+            </class>
+            <class name="com.qa.testcases.AddReviewTest">
+                <methods>
+                    <include name="addReviewAfterSignUp" />
+                </methods>
+            </class>
+            <class name="com.qa.testcases.AddReviewTest">
+                <methods>
+                    <include name="addReviewAfterLogin" />
+                </methods>
+            </class>
+            <class name="com.qa.testcases.AddReviewTest">
+                <methods>
+                    <include name="addReviewFromPlusButtonAfterSignUp" />
+                </methods>
+            </class>
+            <class name="com.qa.testcases.AddReviewTest">
+                <methods>
+                    <include name="addReviewFromPlusButtonAfterLogin" />
+                </methods>
+            </class>-->
+            <!--<class name="com.qa.testcases.LoginInvalidTest">
+                <methods>
+                    <include name="loginInvalid" />
+                </methods>
+            </class>-->
+        </classes>
+    </test> <!-- automateAndroid -->
+</suite> <!-- Default Suite -->

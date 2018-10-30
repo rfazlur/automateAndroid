@@ -9,6 +9,19 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends TestBase {
 
+    @AndroidFindBy(id = "img_tab1")
+    MobileElement homeMenu;
+
+    @AndroidFindBy(id = "img_tab2")
+    MobileElement homeFeed;
+
+    @AndroidFindBy(id = "img_tab4")
+    MobileElement homeDiscover;
+
+    @AndroidFindBy(id = "img_tab5")
+    MobileElement homeProfile;
+
+
     @AndroidFindBy(id = "com.fdbr.android.debug:id/fl_btn")
     MobileElement btnStartJourney;
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Home']")
@@ -61,6 +74,22 @@ public class HomePage extends TestBase {
         btnPlus.click();
     }
 
+<<<<<<< HEAD
+    public void clickHome(){
+        homeMenu.click();
+    }
+
+    public void clickFeed(){
+        homeFeed.click();
+    }
+
+    public void clickDiscover(){
+        homeDiscover.click();
+    }
+
+    public void clickProfile(){
+        homeProfile.click();
+=======
     /*public void clickBtnOKCameraPermission(){
         btnOKCameraPermission.click();
     }*/
@@ -87,5 +116,6 @@ public class HomePage extends TestBase {
 
     public void clickProfileButton(){
         btnProfile.click();
+>>>>>>> c0da3f0135d02e696a79ccf5b8f1f0dcfbe60be7
     }
 }
