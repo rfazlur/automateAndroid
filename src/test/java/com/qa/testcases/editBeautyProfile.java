@@ -119,7 +119,7 @@ public class editBeautyProfile extends TestBase {
         {
 
         TouchAction touchAction2 = new TouchAction(driver);
-        touchAction2.tap(new PointOption().withCoordinates(962, 989)).perform();
+        touchAction2.tap(new PointOption().withCoordinates(1062, 1089)).perform();
 
         }
 
