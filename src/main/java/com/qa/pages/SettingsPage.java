@@ -102,7 +102,7 @@ public class SettingsPage extends TestBase {
             //hair type
             @AndroidFindBy(id = "//com.fdbr.android.debug:id/hsv_hair_types")
             MobileElement hairTypeElement;
-            
+
 
             @AndroidFindBy(xpath = "//android.widget.FrameLayout[@instance='8']") //element nya sama dengan skinOily
             MobileElement hairTypeWavy;
