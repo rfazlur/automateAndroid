@@ -29,13 +29,10 @@ public class SettingsPage extends TestBase {
     MobileElement headToolbarBackEditProfile;
     @AndroidFindBy(id = "com.fdbr.android.debug:id/txt_save")
     MobileElement headToolbarSaveEditProfile;
-<<<<<<< HEAD
 
     @AndroidFindBy(id = "com.fdbr.android.debug:id/img_pencil")
     MobileElement editPhotoProfile;
 
-=======
->>>>>>> c0da3f0135d02e696a79ccf5b8f1f0dcfbe60be7
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_dob")
     MobileElement fieldDOB;
     @AndroidFindBy(id = "com.fdbr.android.debug:id/edt_name")
@@ -92,7 +89,7 @@ public class SettingsPage extends TestBase {
             @AndroidFindBy(id = "com.fdbr.android.debug:id/hsv_skin_undertones")
             MobileElement skinUnderToneElement;
 
-<<<<<<< HEAD
+
             @AndroidFindBy(xpath = "//android.widget.FrameLayout[@index='0']")
             MobileElement skinCool;
 
@@ -105,17 +102,7 @@ public class SettingsPage extends TestBase {
             //hair type
             @AndroidFindBy(id = "//com.fdbr.android.debug:id/hsv_hair_types")
             MobileElement hairTypeElement;
-=======
-    //skin type
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
-    MobileElement skinOily;
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
-    MobileElement skinDry;
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
-    MobileElement skinNormal;
-    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
-    MobileElement skinCombination;
->>>>>>> c0da3f0135d02e696a79ccf5b8f1f0dcfbe60be7
+            
 
             @AndroidFindBy(xpath = "//android.widget.FrameLayout[@instance='8']") //element nya sama dengan skinOily
             MobileElement hairTypeWavy;
