@@ -12,53 +12,42 @@ public class SettingsPage extends TestBase {
 
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_editprofile")
     MobileElement optionEditProfile;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_invitefriend")
     MobileElement optionInviteFriends;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_cs")
     MobileElement optionFeedback;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_rate")
     MobileElement optionRateApp;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_ppo")
     MobileElement optionPrivacyPolicy;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_logout")
     MobileElement optionLogout;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/toolbar_back_button")
     MobileElement headToolbarBack;
-
     //edit profile field
     @AndroidFindBy(id = "com.fdbr.android.debug:id/img_back")
     MobileElement headToolbarBackEditProfile;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/txt_save")
     MobileElement headToolbarSaveEditProfile;
+<<<<<<< HEAD
 
     @AndroidFindBy(id = "com.fdbr.android.debug:id/img_pencil")
     MobileElement editPhotoProfile;
 
+=======
+>>>>>>> c0da3f0135d02e696a79ccf5b8f1f0dcfbe60be7
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_dob")
     MobileElement fieldDOB;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/edt_name")
     MobileElement fieldUsername;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_location")
     MobileElement fieldLocation;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/edt_phone_number")
     MobileElement fieldPhone;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_bio")
     MobileElement fieldBio;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_beauty_id")
     MobileElement optionUpdateBP;
-
     @AndroidFindBy(id = "com.fdbr.android.debug:id/rel_beauty_concern")
     MobileElement optionUpdateBC;
 
@@ -103,6 +92,7 @@ public class SettingsPage extends TestBase {
             @AndroidFindBy(id = "com.fdbr.android.debug:id/hsv_skin_undertones")
             MobileElement skinUnderToneElement;
 
+<<<<<<< HEAD
             @AndroidFindBy(xpath = "//android.widget.FrameLayout[@index='0']")
             MobileElement skinCool;
 
@@ -115,6 +105,17 @@ public class SettingsPage extends TestBase {
             //hair type
             @AndroidFindBy(id = "//com.fdbr.android.debug:id/hsv_hair_types")
             MobileElement hairTypeElement;
+=======
+    //skin type
+    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
+    MobileElement skinOily;
+    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
+    MobileElement skinDry;
+    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
+    MobileElement skinNormal;
+    @AndroidFindBy(xpath = "android.widget.FrameLayout[@instance='8']")
+    MobileElement skinCombination;
+>>>>>>> c0da3f0135d02e696a79ccf5b8f1f0dcfbe60be7
 
             @AndroidFindBy(xpath = "//android.widget.FrameLayout[@instance='8']") //element nya sama dengan skinOily
             MobileElement hairTypeWavy;

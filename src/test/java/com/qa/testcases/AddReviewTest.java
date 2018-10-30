@@ -79,7 +79,8 @@ public class AddReviewTest extends TestBase {
         signuppage.inputEmail(faker.internet().safeEmailAddress());
         signuppage.inputUsername(faker.internet().slug());
         signuppage.inputPassword(faker.internet().password());
-        signuppage.hideKeyboard();
+        hideKeyboard();
+        //signuppage.hideKeyboard();
         signuppage.tapContinueButton();
 
         //input DOB
@@ -169,7 +170,8 @@ public class AddReviewTest extends TestBase {
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("username"));
         loginpage.inputPassword(prop.getProperty("password"));
-        loginpage.hideKeyboard();
+        hideKeyboard();
+        //loginpage.hideKeyboard();
         loginpage.tapBtnLogin();
 
         //select product
@@ -203,7 +205,8 @@ public class AddReviewTest extends TestBase {
         signuppage.inputEmail(faker.internet().safeEmailAddress());
         signuppage.inputUsername(faker.internet().slug());
         signuppage.inputPassword(faker.internet().password());
-        signuppage.hideKeyboard();
+        hideKeyboard();
+        //signuppage.hideKeyboard();
         signuppage.tapContinueButton();
 
         //input DOB
@@ -290,7 +293,8 @@ public class AddReviewTest extends TestBase {
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("username"));
         loginpage.inputPassword(prop.getProperty("password"));
-        loginpage.hideKeyboard();
+        hideKeyboard();
+        //loginpage.hideKeyboard();
         loginpage.tapBtnLogin();
 
         //select product

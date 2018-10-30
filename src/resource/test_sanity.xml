@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android Application Test Automation Test Suite">
+    <test name="Android Automation Test Cases">
+        <classes>
+            <class name="com.qa.testcases.editProfile">
+                <methods>
+                    <include name="updateBeautyProfile"/>
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- automateAndroid -->
+</suite> <!-- Default Suite -->

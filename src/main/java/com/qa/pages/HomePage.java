@@ -2,6 +2,7 @@ package com.qa.pages;
 
 import com.qa.base.TestBase;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AndroidBy;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
@@ -35,6 +36,15 @@ public class HomePage extends TestBase {
     MobileElement btnCloseRate;
     @AndroidFindBy(id = "com.fdbr.android.debug:id/fab")
     MobileElement btnPlus;
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/btn_ok")
+    MobileElement btnOKCameraPermission;
+    @AndroidFindBy(id = "com.android.packageinstaller:id/permission_allow_button")
+    MobileElement btnAllowTakePicture;
+    @AndroidFindBy(id = "com.fdbr.android.debug:id/toolbar_notification_button")
+    MobileElement btnNotification;
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Profile']")
+    MobileElement btnProfile;
+
 
     public HomePage(){
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
@@ -64,6 +74,7 @@ public class HomePage extends TestBase {
         btnPlus.click();
     }
 
+<<<<<<< HEAD
     public void clickHome(){
         homeMenu.click();
     }
@@ -78,5 +89,33 @@ public class HomePage extends TestBase {
 
     public void clickProfile(){
         homeProfile.click();
+=======
+    /*public void clickBtnOKCameraPermission(){
+        btnOKCameraPermission.click();
+    }*/
+
+    public void clickBtnOKCameraPermission(){
+        if(btnOKCameraPermission.isDisplayed()){
+            btnOKCameraPermission.click();
+        }
+    }
+
+    /*public void clickBtnAllowTakePicture(){
+        btnAllowTakePicture.click();
+    }*/
+
+    public void clickBtnAllowTakePicture(){
+        if(btnAllowTakePicture.isDisplayed()){
+            btnAllowTakePicture.click();
+        }
+    }
+
+    public void clickNotificationBell(){
+        btnNotification.click();
+    }
+
+    public void clickProfileButton(){
+        btnProfile.click();
+>>>>>>> c0da3f0135d02e696a79ccf5b8f1f0dcfbe60be7
     }
 }
