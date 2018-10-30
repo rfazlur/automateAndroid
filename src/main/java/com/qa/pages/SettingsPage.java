@@ -255,7 +255,7 @@ public class SettingsPage extends TestBase {
             skinCool.click();
         } else if (editskinundertone.equals("neutral")){
             skinNeutral.click();
-        } else  if (editskinundertone.equals("worm")){
+        } else  if (editskinundertone.equals("warm")){
             skinWarm.click();
         } else {
             System.out.println("skin undertone changed");

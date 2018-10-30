@@ -80,20 +80,12 @@ public class editBeautyProfile extends TestBase {
     }
 
     @Test
-
     public void editBeautyProfile() {
         assertions.waitForAgreementText();
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("username2"));
         loginpage.inputPassword(prop.getProperty("password2"));
         loginpage.hideKeyboard();
-
-    public void changeProfilePicture(){
-        assertions.waitForAgreementText();
-        onboardingpage.clickBtnLogin();
-        loginpage.inputUsername(prop.getProperty("username"));
-        loginpage.inputPassword(prop.getProperty("password"));
-        hideKeyboard();
 
         loginpage.tapBtnLogin();
         assertions.waitForCloseBtnAppRate();
@@ -123,14 +115,15 @@ public class editBeautyProfile extends TestBase {
         settingsPage.setSkinType(prop.getProperty("editskintype"));
         settingsPage.setSkinTone(prop.getProperty("editskintone"));
 
-//        settingsPage.setSkinUndertone(prop.getProperty("editskinundertone"));
-        for (int i=0;i<1;i++)
+        for (int i=0;i<2;i++)
         {
 
         TouchAction touchAction2 = new TouchAction(driver);
         touchAction2.tap(new PointOption().withCoordinates(962, 989)).perform();
 
         }
+
+        settingsPage.setSkinUndertone(prop.getProperty("editskinundertone"));
 //        settingsPage.setHairType(prop.getProperty("edithairtype"));
 //        settingsPage.setColoredHair(prop.getProperty("editcoloredhair"));
 //        settingsPage.setHijaber(prop.getProperty("edithijaber"));
@@ -140,44 +133,44 @@ public class editBeautyProfile extends TestBase {
         assertions.waitEditProfileOption();
         homepage.clickProfileButton();
         profilePage.clickToolbarSetting();
-        settingspage.clickEditProfile();
+        settingsPage.clickEditProfile();
         editprofilepage.clickButtonTakePicture();
     }
 
-    @Test
-    public void changeDOB(){
-
-    }
-
-    @Test
-    public void changeFullName(){
-
-    }
-
-    @Test
-    public void changeLocation(){
-
-    }
-
-    @Test
-    public void changePhoneNumber(){
-
-    }
-
-    @Test
-    public void updateBeautyProfile() throws InterruptedException {
-        assertions.waitForAgreementText();
-        onboardingpage.clickBtnLogin();
-        loginpage.inputUsername(prop.getProperty("username"));
-        loginpage.inputPassword(prop.getProperty("password"));
-        hideKeyboard();
-        loginpage.tapBtnLogin();
-        assertions.waitForCloseBtnAppRate();
-        homepage.clickBtnCloseRate();
-        homepage.dismissToolTip();
-        homepage.clickProfileButton();
-        profilePage.clickToolbarSetting();
-        settingspage.clickEditProfile();
-        editprofilepage.scrollTillUpdateBeautyConcern();
-    }
+//    @Test
+//    public void changeDOB(){
+//
+//    }
+//
+//    @Test
+//    public void changeFullName(){
+//
+//    }
+//
+//    @Test
+//    public void changeLocation(){
+//
+//    }
+//
+//    @Test
+//    public void changePhoneNumber(){
+//
+//    }
+//
+//    @Test
+//    public void updateBeautyProfile() throws InterruptedException {
+//        assertions.waitForAgreementText();
+//        onboardingpage.clickBtnLogin();
+//        loginpage.inputUsername(prop.getProperty("username"));
+//        loginpage.inputPassword(prop.getProperty("password"));
+//        hideKeyboard();
+//        loginpage.tapBtnLogin();
+//        assertions.waitForCloseBtnAppRate();
+//        homepage.clickBtnCloseRate();
+//        homepage.dismissToolTip();
+//        homepage.clickProfileButton();
+//        profilePage.clickToolbarSetting();
+//        settingspage.clickEditProfile();
+//        editprofilepage.scrollTillUpdateBeautyConcern();
+//    }
 }

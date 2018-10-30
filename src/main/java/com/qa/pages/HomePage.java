@@ -86,9 +86,11 @@ public class HomePage extends TestBase {
         homeDiscover.click();
     }
 
-    public void clickProfile(){
+    public void clickProfile() {
         homeProfile.click();
-    /*public void clickBtnOKCameraPermission(){
+    }
+
+        /*public void clickBtnOKCameraPermission(){
         btnOKCameraPermission.click();
     }*/
 
