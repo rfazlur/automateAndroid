@@ -74,7 +74,6 @@ public class HomePage extends TestBase {
         btnPlus.click();
     }
 
-<<<<<<< HEAD
     public void clickHome(){
         homeMenu.click();
     }
@@ -89,7 +88,6 @@ public class HomePage extends TestBase {
 
     public void clickProfile(){
         homeProfile.click();
-=======
     /*public void clickBtnOKCameraPermission(){
         btnOKCameraPermission.click();
     }*/
@@ -116,6 +114,5 @@ public class HomePage extends TestBase {
 
     public void clickProfileButton(){
         btnProfile.click();
->>>>>>> c0da3f0135d02e696a79ccf5b8f1f0dcfbe60be7
     }
 }

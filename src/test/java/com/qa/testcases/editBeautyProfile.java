@@ -37,12 +37,8 @@ public class editBeautyProfile extends TestBase {
     private SateliteButtonPage satelitebuttonpage;
     private AddReviewChooseProductPage addreviewChooseProductpage;
     private ProfilePage profilePage;
-<<<<<<< HEAD:src/test/java/com/qa/testcases/editBeautyProfile.java
     private SettingsPage settingsPage;
-=======
-    private SettingsPage settingspage;
     private EditProfilePage editprofilepage;
->>>>>>> c0da3f0135d02e696a79ccf5b8f1f0dcfbe60be7:src/test/java/com/qa/testcases/editProfile.java
 
     public editBeautyProfile(){
         super();
@@ -73,12 +69,8 @@ public class editBeautyProfile extends TestBase {
         satelitebuttonpage = new SateliteButtonPage();
         addreviewChooseProductpage = new AddReviewChooseProductPage();
         profilePage = new ProfilePage();
-<<<<<<< HEAD:src/test/java/com/qa/testcases/editBeautyProfile.java
         settingsPage = new SettingsPage();
-=======
-        settingspage = new SettingsPage();
         editprofilepage = new EditProfilePage();
->>>>>>> c0da3f0135d02e696a79ccf5b8f1f0dcfbe60be7:src/test/java/com/qa/testcases/editProfile.java
         //cek
     }
 
@@ -88,26 +80,25 @@ public class editBeautyProfile extends TestBase {
     }
 
     @Test
-<<<<<<< HEAD:src/test/java/com/qa/testcases/editBeautyProfile.java
+
     public void editBeautyProfile() {
         assertions.waitForAgreementText();
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("username2"));
         loginpage.inputPassword(prop.getProperty("password2"));
         loginpage.hideKeyboard();
-=======
+
     public void changeProfilePicture(){
         assertions.waitForAgreementText();
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("username"));
         loginpage.inputPassword(prop.getProperty("password"));
         hideKeyboard();
->>>>>>> c0da3f0135d02e696a79ccf5b8f1f0dcfbe60be7:src/test/java/com/qa/testcases/editProfile.java
+
         loginpage.tapBtnLogin();
         assertions.waitForCloseBtnAppRate();
         homepage.clickBtnCloseRate();
         homepage.dismissToolTip();
-<<<<<<< HEAD:src/test/java/com/qa/testcases/editBeautyProfile.java
 
         homepage.clickProfile();
         assertions.waitProfilePage();
@@ -147,7 +138,6 @@ public class editBeautyProfile extends TestBase {
         settingsPage.clickSaveNewBeaProf();
         settingsPage.clickHeadToolbarSaveEditProfile();
         assertions.waitEditProfileOption();
-=======
         homepage.clickProfileButton();
         profilePage.clickToolbarSetting();
         settingspage.clickEditProfile();
@@ -156,7 +146,6 @@ public class editBeautyProfile extends TestBase {
 
     @Test
     public void changeDOB(){
->>>>>>> c0da3f0135d02e696a79ccf5b8f1f0dcfbe60be7:src/test/java/com/qa/testcases/editProfile.java
 
     }
 
