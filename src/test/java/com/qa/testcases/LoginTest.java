@@ -39,7 +39,7 @@ public class LoginTest extends TestBase {
         driver.quit();
     }
 
-    @Test
+    @Test(priority = 1)
     public void loginUsingUsername(){
         assertions.waitForNextButtonCarousel();
         carouselpage.clickBtnNext();
@@ -58,7 +58,7 @@ public class LoginTest extends TestBase {
         homepage.dismissToolTip();
     }
 
-    @Test
+    @Test(priority = 2)
     public void loginUsingEmail(){
         assertions.waitForNextButtonCarousel();
         carouselpage.clickBtnNext();
@@ -76,7 +76,7 @@ public class LoginTest extends TestBase {
         homepage.dismissToolTip();
     }
 
-    @Test
+    @Test(priority = 3)
     public void loginWithWrongUsername() {
         assertions.waitForNextButtonCarousel();
         carouselpage.clickBtnNext();
@@ -93,7 +93,7 @@ public class LoginTest extends TestBase {
         validatetoast.validateToastLoginFailed();*/
     }
 
-    @Test
+    @Test(priority = 4)
     public void loginWithWrongPassword() {
         assertions.waitForNextButtonCarousel();
         carouselpage.clickBtnNext();
@@ -110,7 +110,7 @@ public class LoginTest extends TestBase {
         validatetoast.validateToastLoginFailed();*/
     }
 
-    @Test
+    @Test(priority = 5)
     public void loginWithEmptyPassword() {
         assertions.waitForNextButtonCarousel();
         carouselpage.clickBtnNext();

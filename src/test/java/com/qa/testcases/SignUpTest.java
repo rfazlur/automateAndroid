@@ -37,80 +37,7 @@ public class SignUpTest extends TestBase {
         driver.quit();
     }
 
-    /*@Test
-    public void registerNewUser(){
-        assertions.waitForAgreementText();
-        onboardingpage.clickBtnSignUp();
-
-        //register new user
-        signuppage.inputEmail(faker.internet().safeEmailAddress());
-        signuppage.inputUsername(faker.internet().slug());
-        signuppage.inputPassword(faker.internet().password());
-        signuppage.hideKeyboard();
-        signuppage.tapContinueButton();
-
-        //input DOB
-        assertions.waitForFieldDOB();
-        dobpage.tapDOBField();
-        dobpage.tapOKButton();
-        dobpage.tapNextButton();
-
-        //set skin
-        assertions.waitForSkinTypeOptions();
-        skinpage.selectSkinType();
-        assertions.waitForSkinToneOptions();
-        skinpage.selectSkinTone();
-        assertions.waitForSkinUndertoneOptions();
-        skinpage.selectSkinUndertone();
-        assertions.waitForNextButtonSkinType();
-        skinpage.tapNextButton();
-
-        //set hair and hijab
-        assertions.waitForHairTypeOptions();
-        hairpage.selectHairType();
-        assertions.waitForColoredHairOptions();
-        hairpage.selectColoredHair();
-        assertions.waitForHijaberptions();
-        hairpage.selectHijab();
-        assertions.waitForNextButtonHairType();
-        hairpage.tapNextButton();
-
-        //set skin concern
-        assertions.waitForSkinConcernOptions();
-        skinconcernspage.selectSkinConcerns();
-        assertions.waitForNextButtonSkinConcerns();
-        skinconcernspage.clickBtnNext();
-
-        //set body concern
-        assertions.waitForBodyConcernOptions();
-        bodyconcernspage.selectBodyConcerns();
-        assertions.waitForNextButtonBodyConcerns();
-        bodyconcernspage.clickBtnNext();
-
-        //set hair concern
-        assertions.waitForHairConcernOptions();
-        hairconcernspage.selectHairConcerns();
-        assertions.waitForNextButtonHairConcerns();
-        hairconcernspage.clickBtnNext();
-
-        //fill sign up profile
-        signupprofilepage.inputFullName(faker.name().fullName());
-        signupprofilepage.hideKeyboard();
-        signupprofilepage.clickLocation();
-        assertions.waitForLocationList();
-        locationpage.selectLocation();
-        assertions.waitForFieldPhoneNumber();
-        signupprofilepage.inputPhoneNumber(faker.phoneNumber().cellPhone());
-        signupprofilepage.hideKeyboard();
-        signupprofilepage.clickBtnNext();
-
-        //skip find friend
-        assertions.waitForSkipButton();
-        findfriendpage.clickBtnSkip();
-        assertions.waitForStartBeautyJourneyButton();
-    }*/
-
-    @Test
+    @Test(priority = 1)
     public void registerNewUser() {
         assertions.waitForNextButtonCarousel();
         carouselpage.clickBtnNext();
@@ -131,7 +58,7 @@ public class SignUpTest extends TestBase {
         assertions.waitForFieldDOB();
     }
 
-    @Test
+    @Test(priority = 2)
     public void registerNewUserWithRegisteredEmail() {
         assertions.waitForNextButtonCarousel();
         carouselpage.clickBtnNext();
@@ -151,7 +78,7 @@ public class SignUpTest extends TestBase {
         //cek message from API
     }
 
-    @Test
+    @Test(priority = 3)
     public void registerNewUserWithRegisteredUsername() {
         assertions.waitForNextButtonCarousel();
         carouselpage.clickBtnNext();

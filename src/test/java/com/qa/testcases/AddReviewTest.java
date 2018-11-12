@@ -71,7 +71,7 @@ public class AddReviewTest extends TestBase {
         driver.quit();
     }
 
-    @Test
+    @Test(priority = 1)
     public void addReviewAfterSignUp(){
         //call sign up process
         assertions.waitForNextButtonCarousel();
@@ -170,7 +170,7 @@ public class AddReviewTest extends TestBase {
         reviewformpage.clickBtnSubmit();
     }
 
-    @Test
+    @Test(priority = 2)
     public void addReviewAfterLogin(){
         //login
         assertions.waitForNextButtonCarousel();
@@ -207,7 +207,7 @@ public class AddReviewTest extends TestBase {
         reviewformpage.clickBtnSubmit();
     }
 
-    @Test
+    @Test(priority = 3)
     public void addReviewFromPlusButtonAfterSignUp(){
         //call sign up process
         assertions.waitForNextButtonCarousel();
@@ -303,7 +303,7 @@ public class AddReviewTest extends TestBase {
         reviewformpage.clickBtnSubmit();
     }
 
-    @Test
+    @Test(priority = 4)
     public void addReviewFromPlusButtonAfterLogin(){
         //login
         assertions.waitForNextButtonCarousel();

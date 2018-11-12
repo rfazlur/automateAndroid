@@ -49,7 +49,7 @@ public class SetBeautyConcernTest extends TestBase {
         driver.quit();
     }
 
-    @Test
+    @Test(priority = 1)
     public void setSkinConcern(){
         assertions.waitForNextButtonCarousel();
         carouselpage.clickBtnNext();
@@ -100,7 +100,7 @@ public class SetBeautyConcernTest extends TestBase {
         skinconcernspage.clickBtnNext();
     }
 
-    @Test
+    @Test(priority = 2)
     public void setBodyConcern(){
         assertions.waitForNextButtonCarousel();
         carouselpage.clickBtnNext();
@@ -157,7 +157,7 @@ public class SetBeautyConcernTest extends TestBase {
         bodyconcernspage.clickBtnNext();
     }
 
-    @Test
+    @Test(priority = 3)
     public void setHairConcern(){
         assertions.waitForNextButtonCarousel();
         carouselpage.clickBtnNext();

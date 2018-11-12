@@ -44,7 +44,7 @@ public class SetBeautyProfileTest extends TestBase {
         driver.quit();
     }
 
-    @Test
+    @Test(priority = 1)
     public void setSkin(){
         assertions.waitForNextButtonCarousel();
         carouselpage.clickBtnNext();
@@ -78,7 +78,7 @@ public class SetBeautyProfileTest extends TestBase {
         skinpage.tapNextButton();
     }
 
-    @Test
+    @Test(priority = 2)
     public void setHairAndHijab(){
         assertions.waitForNextButtonCarousel();
         carouselpage.clickBtnNext();

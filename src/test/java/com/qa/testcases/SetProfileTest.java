@@ -53,7 +53,7 @@ public class SetProfileTest extends TestBase {
         driver.quit();
     }
 
-    @Test
+    @Test(priority = 1)
     public void takePictureSignUp() throws InterruptedException {
 
         assertions.waitForNextButtonCarousel();

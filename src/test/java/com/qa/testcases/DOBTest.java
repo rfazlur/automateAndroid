@@ -42,7 +42,7 @@ public class DOBTest extends TestBase {
         driver.quit();
     }
 
-    @Test
+    @Test(priority = 1)
     public void inputValidDOB(){
         assertions.waitForNextButtonCarousel();
         carouselpage.clickBtnNext();
