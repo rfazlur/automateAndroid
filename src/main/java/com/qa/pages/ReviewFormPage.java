@@ -44,18 +44,24 @@ public class ReviewFormPage extends TestBase {
         int widthOverallX = rateOverall.getSize().getWidth();
         int endOverallX = startOverallX + widthOverallX;
         int tapOverallAt;
-        if(rating.equals("1")){
-            tapOverallAt = startOverallX + ((int) (widthOverallX * 0.2));
-        } else if(rating.equals("2")){
-            tapOverallAt = startOverallX + ((int) (widthOverallX * 0.4));
-        } else if(rating.equals("3")){
-            tapOverallAt = startOverallX + ((int) (widthOverallX * 0.6));
-        } else if(rating.equals("4")){
-            tapOverallAt = startOverallX + ((int) (widthOverallX * 0.8));
-        } else if(rating.equals("5")){
-            tapOverallAt = startOverallX + widthOverallX;
-        } else{
-            return;
+        switch (rating) {
+            case "1":
+                tapOverallAt = startOverallX + ((int) (widthOverallX * 0.2));
+                break;
+            case "2":
+                tapOverallAt = startOverallX + ((int) (widthOverallX * 0.4));
+                break;
+            case "3":
+                tapOverallAt = startOverallX + ((int) (widthOverallX * 0.6));
+                break;
+            case "4":
+                tapOverallAt = startOverallX + ((int) (widthOverallX * 0.8));
+                break;
+            case "5":
+                tapOverallAt = startOverallX + widthOverallX;
+                break;
+            default:
+                return;
         }
         System.out.println("rating : "+rating+" startX : "+startOverallX+" staryY: "+startOverallY+" endX: "+endOverallX+" tapAt: "+tapOverallAt);
         androidtouchaction.press(PointOption.point(tapOverallAt, startOverallY)).release().perform();
@@ -68,53 +74,65 @@ public class ReviewFormPage extends TestBase {
         int widthPackagingX = ratePackaging.getSize().getWidth();
         int endPackagingX = startPackagingX + widthPackagingX;
         int tapPackagingAt;
-        if(rating.equals("1")){
-            tapPackagingAt = startPackagingX + ((int) (widthPackagingX * 0.2));
-        } else if(rating.equals("2")){
-            tapPackagingAt = startPackagingX + ((int) (widthPackagingX * 0.4));
-        } else if(rating.equals("3")){
-            tapPackagingAt = startPackagingX + ((int) (widthPackagingX * 0.6));
-        } else if(rating.equals("4")){
-            tapPackagingAt = startPackagingX + ((int) (widthPackagingX * 0.8));
-        } else if(rating.equals("5")){
-            tapPackagingAt = startPackagingX + widthPackagingX;
-        } else{
-            return;
+        switch (rating) {
+            case "1":
+                tapPackagingAt = startPackagingX + ((int) (widthPackagingX * 0.2));
+                break;
+            case "2":
+                tapPackagingAt = startPackagingX + ((int) (widthPackagingX * 0.4));
+                break;
+            case "3":
+                tapPackagingAt = startPackagingX + ((int) (widthPackagingX * 0.6));
+                break;
+            case "4":
+                tapPackagingAt = startPackagingX + ((int) (widthPackagingX * 0.8));
+                break;
+            case "5":
+                tapPackagingAt = startPackagingX + widthPackagingX;
+                break;
+            default:
+                return;
         }
         System.out.println("rating : "+rating+" startX : "+startPackagingX+" staryY: "+startPackagingY+" endX: "+endPackagingX+" tapAt: "+tapPackagingAt);
         androidtouchaction.press(PointOption.point(tapPackagingAt, startPackagingY)).release().perform();
     }
 
     public void setPrice(String price){
-        if (price.equals("1")){
-            btnPrice1.click();
-        } else if (price.equals("2")){
-            btnPrice2.click();
-        } else  if (price.equals("3")){
-            btnPrice3.click();
-        } else {
-            System.out.println("Wrong price selected");
+        switch (price) {
+            case "1":
+                btnPrice1.click();
+                break;
+            case "2":
+                btnPrice2.click();
+                break;
+            case "3":
+                btnPrice3.click();
+                break;
+            default:
+                System.out.println("Wrong price selected");
+                break;
         }
     }
 
     public void setRepurchase(String repurchase){
-        if (repurchase.equals("1")){
-            btnRepurchaseYes.click();
-        } else if (repurchase.equals("2")){
-            btnRepurchaseMaybe.click();
-        } else if (repurchase.equals("3")){
-            btnRepurchaseNo.click();
-        } else {
-            System.out.println("Wrong repurchase selected");
+        switch (repurchase) {
+            case "1":
+                btnRepurchaseYes.click();
+                break;
+            case "2":
+                btnRepurchaseMaybe.click();
+                break;
+            case "3":
+                btnRepurchaseNo.click();
+                break;
+            default:
+                System.out.println("Wrong repurchase selected");
+                break;
         }
     }
 
     public void writeReview(String review){
         txtReview.sendKeys(review);
-    }
-
-    public void hideKeyboard(){
-        driver.hideKeyboard();
     }
 
     public void clickBtnSubmit(){

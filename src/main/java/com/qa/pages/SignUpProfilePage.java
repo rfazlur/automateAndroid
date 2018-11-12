@@ -1,6 +1,5 @@
 package com.qa.pages;
 
-import com.github.javafaker.Name;
 import com.qa.base.TestBase;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -38,10 +37,6 @@ public class SignUpProfilePage extends TestBase {
 
     public void clickBtnNext(){
         btnNext.click();
-    }
-
-    public void hideKeyboard(){
-        driver.hideKeyboard();
     }
 
     public void clickUploadProfilePicture(){

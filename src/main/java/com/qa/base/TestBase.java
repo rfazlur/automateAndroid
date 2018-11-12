@@ -34,7 +34,7 @@ public class TestBase {
         }
     }
 
-    public static void startAppium() throws InterruptedException {
+    private static void startAppium() throws InterruptedException {
         appiumservice = new AppiumServiceBuilder()
                 .usingDriverExecutable(new File(nodePath))
                 .withAppiumJS(new File(appiumPath))
@@ -45,7 +45,7 @@ public class TestBase {
         Thread.sleep(7000);
     }
 
-    public static void stopAppium() throws IOException {
+    private static void stopAppium() throws IOException {
         Runtime.getRuntime().exec("killall node");
     }
 

@@ -29,10 +29,6 @@ public class LoginPage extends TestBase {
         txtPassword.sendKeys(passwd);
     }
 
-    /*public void hideKeyboard(){
-        driver.hideKeyboard();
-    }*/
-
     public void tapBtnLogin(){
         btnLogin.click();
     }

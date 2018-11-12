@@ -20,12 +20,10 @@ public class OnBoardingPage extends TestBase {
 
     public void clickBtnLogin(){
         btnLogin.click();
-        return;
     }
 
     public void clickBtnSignUp(){
         btnSignUp.click();
-        return;
     }
 
 }

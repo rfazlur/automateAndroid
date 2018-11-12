@@ -23,17 +23,14 @@ public class DOBPage extends TestBase {
 
     public void tapDOBField(){
         txtDOB.click();
-        return;
     }
 
     public void tapOKButton(){
         btnOK.click();
-        return;
     }
 
     public void tapNextButton(){
         btnNext.click();
-        return;
     }
 
 }

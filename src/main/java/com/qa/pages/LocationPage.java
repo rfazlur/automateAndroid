@@ -6,9 +6,6 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 
-import java.util.List;
-import java.util.Random;
-
 public class LocationPage extends TestBase {
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Bandung']")

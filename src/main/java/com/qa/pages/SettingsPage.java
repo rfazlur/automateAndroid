@@ -301,8 +301,4 @@ public class SettingsPage extends TestBase {
         headToolbarSaveEditProfile.click();
     }
 
-    public void hideKeyboard(){
-        driver.hideKeyboard();
-    }
-
 }
