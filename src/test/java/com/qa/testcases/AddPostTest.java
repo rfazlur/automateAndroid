@@ -50,7 +50,6 @@ public class AddPostTest extends TestBase {
         loginpage.inputUsername(prop.getProperty("username"));
         loginpage.inputPassword(prop.getProperty("password"));
         hideKeyboard();
-        //loginpage.hideKeyboard();
         loginpage.tapBtnLogin();
         assertions.waitForCloseBtnAppRate();
         homepage.clickBtnCloseRate();
@@ -59,11 +58,11 @@ public class AddPostTest extends TestBase {
         satelitebuttonpage.clickBtnPost();
         /*homepage.clickBtnOKCameraPermission();
         homepage.clickBtnAllowTakePicture();*/
-        takepicturepage.dismissToolTipTakePicture();
+        /*takepicturepage.dismissToolTipTakePicture();
         takepicturepage.clickBtnTakePicture();
-        takepicturepage.clickBtnAllowPermission();
+        takepicturepage.clickBtnAllowPermission();*/
         assertions.waitForNextButtonTakePicture();
-        takepicturepage.clickBtnNext();
+        //takepicturepage.clickBtnNext();
         addpostformpage.inputCaption(faker.lorem().sentence(2));
     }
 

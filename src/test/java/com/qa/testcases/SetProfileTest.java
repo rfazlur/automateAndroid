@@ -23,6 +23,8 @@ public class SetProfileTest extends TestBase {
     private HairConcernsPage hairconcernspage;
     private Faker faker;
     private SignUpProfilePage signupprofilepage;
+    private TakePicturePage takepicturepage;
+    private CarouselPage carouselpage;
 
     public SetProfileTest(){
         super();
@@ -42,6 +44,8 @@ public class SetProfileTest extends TestBase {
         hairconcernspage = new HairConcernsPage();
         faker = new Faker();
         signupprofilepage = new SignUpProfilePage();
+        takepicturepage = new TakePicturePage();
+        carouselpage = new CarouselPage();
     }
 
     @AfterMethod
@@ -50,9 +54,14 @@ public class SetProfileTest extends TestBase {
     }
 
     @Test
-    public void takePictureSignUp(){
+    public void takePictureSignUp() throws InterruptedException {
 
-        assertions.waitForAgreementText();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         onboardingpage.clickBtnSignUp();
 
         //register new user
@@ -108,7 +117,7 @@ public class SetProfileTest extends TestBase {
 
         //upload profile picture
         signupprofilepage.clickUploadProfilePicture();
-
-
+        takepicturepage.captureImage();
+        takepicturepage.clickBtnCheck();
     }
 }

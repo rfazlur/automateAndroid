@@ -22,6 +22,7 @@ public class SetBeautyConcernTest extends TestBase {
     private SkinConcernsPage skinconcernspage;
     private BodyConcernsPage bodyconcernspage;
     private HairConcernsPage hairconcernspage;
+    private CarouselPage carouselpage;
 
     public SetBeautyConcernTest(){
         super();
@@ -40,6 +41,7 @@ public class SetBeautyConcernTest extends TestBase {
         skinconcernspage = new SkinConcernsPage();
         bodyconcernspage = new BodyConcernsPage();
         hairconcernspage = new HairConcernsPage();
+        carouselpage = new CarouselPage();
     }
 
     @AfterMethod
@@ -49,7 +51,12 @@ public class SetBeautyConcernTest extends TestBase {
 
     @Test
     public void setSkinConcern(){
-        assertions.waitForAgreementText();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         onboardingpage.clickBtnSignUp();
 
         //register new user
@@ -95,7 +102,12 @@ public class SetBeautyConcernTest extends TestBase {
 
     @Test
     public void setBodyConcern(){
-        assertions.waitForAgreementText();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         onboardingpage.clickBtnSignUp();
 
         //register new user
@@ -147,7 +159,12 @@ public class SetBeautyConcernTest extends TestBase {
 
     @Test
     public void setHairConcern(){
-        assertions.waitForAgreementText();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         onboardingpage.clickBtnSignUp();
 
         //register new user

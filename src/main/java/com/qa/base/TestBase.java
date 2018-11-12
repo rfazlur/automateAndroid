@@ -2,21 +2,14 @@ package com.qa.base;
 
 import com.qa.util.TestUtil;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
-import io.appium.java_client.service.local.flags.GeneralServerFlag;
-import org.apache.commons.exec.CommandLine;
-import org.apache.commons.exec.DefaultExecuteResultHandler;
-import org.apache.commons.exec.DefaultExecutor;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -26,17 +19,9 @@ public class TestBase {
     public static Properties prop;
     public static AppiumDriver driver;
     private static String cwd = System.getProperty("user.dir");
-
-    //node and appium on mac
     static String nodePath = "/Users/fdn-faiz/.nvm/versions/node/v11.0.0/bin/node";
     static String appiumPath = "/Users/fdn-faiz/.nvm/versions/node/v11.0.0/bin/appium";
-
-    //node and appium on ubuntu
-    /*static String nodePath = "/home/faiz/.nvm/versions/node/v10.11.0/bin/node";
-    static String appiumPath = "/home/faiz/.nvm/versions/node/v10.11.0/bin/appium";*/
-
     static AppiumDriverLocalService appiumservice;
-
 
     public TestBase(){
         try{
@@ -76,7 +61,7 @@ public class TestBase {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("deviceName", device);
         caps.setCapability("platformName", platform);
-        caps.setCapability("app", cwd+"/src/app/fdndev.apk");
+        caps.setCapability("app", cwd+"/src/app/v 2.6.2 dev build 380.apk");
         caps.setCapability("automationName", "Appium");
 
         driver = new AndroidDriver(new URL("http://"+serverLoc+":"+portNumber+"/wd/hub"), caps);

@@ -9,7 +9,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 
 public class SignUpTest extends TestBase {
 
@@ -17,15 +16,7 @@ public class SignUpTest extends TestBase {
     private SignUpPage signuppage;
     private Faker faker;
     private OnBoardingPage onboardingpage;
-    private DOBPage dobpage;
-    private SkinPage skinpage;
-    private HairPage hairpage;
-    private SkinConcernsPage skinconcernspage;
-    private BodyConcernsPage bodyconcernspage;
-    private HairConcernsPage hairconcernspage;
-    private SignUpProfilePage signupprofilepage;
-    private LocationPage locationpage;
-    private FindFriendPage findfriendpage;
+    private CarouselPage carouselpage;
 
     public SignUpTest(){
         super();
@@ -38,15 +29,7 @@ public class SignUpTest extends TestBase {
         signuppage = new SignUpPage();
         faker = new Faker();
         onboardingpage = new OnBoardingPage();
-        dobpage = new DOBPage();
-        skinpage = new SkinPage();
-        hairpage = new HairPage();
-        skinconcernspage = new SkinConcernsPage();
-        hairconcernspage = new HairConcernsPage();
-        bodyconcernspage = new BodyConcernsPage();
-        signupprofilepage = new SignUpProfilePage();
-        locationpage = new LocationPage();
-        findfriendpage = new FindFriendPage();
+        carouselpage = new CarouselPage();
     }
 
     @AfterMethod
@@ -129,7 +112,12 @@ public class SignUpTest extends TestBase {
 
     @Test
     public void registerNewUser() {
-        assertions.waitForAgreementText();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         onboardingpage.clickBtnSignUp();
 
         //register new user
@@ -145,7 +133,12 @@ public class SignUpTest extends TestBase {
 
     @Test
     public void registerNewUserWithRegisteredEmail() {
-        assertions.waitForAgreementText();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         onboardingpage.clickBtnSignUp();
 
         //register new user
@@ -160,7 +153,12 @@ public class SignUpTest extends TestBase {
 
     @Test
     public void registerNewUserWithRegisteredUsername() {
-        assertions.waitForAgreementText();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         onboardingpage.clickBtnSignUp();
 
         //register new user

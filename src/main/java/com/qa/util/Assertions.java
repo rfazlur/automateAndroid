@@ -141,8 +141,17 @@ public class Assertions extends TestBase {
 
     public void waitForNextButtonTakePicture(){
         wait = new WebDriverWait(driver, 20);
-        //wait.until(ExpectedConditions.elementToBeClickable(By.id("com.fdbr.android.debug:id/toolbar_action_button")));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/toolbar_action_button")));
+    }
+
+    public void waitForNextButtonCarousel(){
+        wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/rel_next")));
+    }
+
+    public void waitForGetStartedButtonCarousel(){
+        wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.fdbr.android.debug:id/rel_start")));
     }
 
 }

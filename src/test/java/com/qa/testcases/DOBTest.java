@@ -2,6 +2,7 @@ package com.qa.testcases;
 
 import com.github.javafaker.Faker;
 import com.qa.base.TestBase;
+import com.qa.pages.CarouselPage;
 import com.qa.pages.DOBPage;
 import com.qa.pages.OnBoardingPage;
 import com.qa.pages.SignUpPage;
@@ -19,6 +20,7 @@ public class DOBTest extends TestBase {
     private SignUpPage signuppage;
     private Faker faker;
     private DOBPage dobpage;
+    private CarouselPage carouselpage;
 
     public DOBTest(){
         super();
@@ -32,6 +34,7 @@ public class DOBTest extends TestBase {
         signuppage = new SignUpPage();
         faker = new Faker();
         dobpage = new DOBPage();
+        carouselpage = new CarouselPage();
     }
 
     @AfterMethod
@@ -41,7 +44,12 @@ public class DOBTest extends TestBase {
 
     @Test
     public void inputValidDOB(){
-        assertions.waitForAgreementText();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         onboardingpage.clickBtnSignUp();
 
         //register new user
@@ -49,7 +57,6 @@ public class DOBTest extends TestBase {
         signuppage.inputUsername(faker.internet().slug());
         signuppage.inputPassword(faker.internet().password());
         hideKeyboard();
-        //signuppage.hideKeyboard();
         signuppage.tapContinueButton();
 
         //input DOB

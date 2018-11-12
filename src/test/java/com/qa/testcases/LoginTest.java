@@ -1,10 +1,9 @@
 package com.qa.testcases;
 
+import com.github.javafaker.Faker;
 import com.qa.base.TestBase;
 import com.qa.pages.*;
 import com.qa.util.Assertions;
-import com.qa.util.ValidateToast;
-import net.sourceforge.tess4j.TesseractException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -17,7 +16,8 @@ public class LoginTest extends TestBase {
     private LoginPage loginpage;
     private Assertions assertions;
     private HomePage homepage;
-    private ValidateToast validatetoast;
+    private CarouselPage carouselpage;
+    private Faker faker;
 
     public LoginTest(){
         super();
@@ -30,7 +30,8 @@ public class LoginTest extends TestBase {
         loginpage = new LoginPage();
         assertions = new Assertions();
         homepage = new HomePage();
-        validatetoast = new ValidateToast();
+        carouselpage = new CarouselPage();
+        faker = new Faker();
     }
 
     @AfterMethod
@@ -40,7 +41,12 @@ public class LoginTest extends TestBase {
 
     @Test
     public void loginUsingUsername(){
-        assertions.waitForAgreementText();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("username"));
         loginpage.inputPassword(prop.getProperty("password"));
@@ -54,8 +60,12 @@ public class LoginTest extends TestBase {
 
     @Test
     public void loginUsingEmail(){
-        assertions.waitForAgreementText();
-        onboardingpage.clickBtnLogin();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         loginpage.inputUsername(prop.getProperty("email"));
         loginpage.inputPassword(prop.getProperty("password"));
         hideKeyboard();
@@ -67,35 +77,47 @@ public class LoginTest extends TestBase {
     }
 
     @Test
-    public void loginWithWrongUsername() throws TesseractException, InterruptedException {
-        assertions.waitForAgreementText();
-        onboardingpage.clickBtnLogin();
-        loginpage.inputUsername("putwiiiiiiiiiiid");
+    public void loginWithWrongUsername() {
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
+        loginpage.inputUsername(faker.internet().slug());
         loginpage.inputPassword(prop.getProperty("password"));
         hideKeyboard();
         //loginpage.hideKeyboard();
         loginpage.tapBtnLogin();
-        Thread.sleep(600);
-        validatetoast.validateToastLoginFailed();
+        /*Thread.sleep(600);
+        validatetoast.validateToastLoginFailed();*/
     }
 
     @Test
-    public void loginWithWrongPassword() throws TesseractException, InterruptedException {
-        assertions.waitForAgreementText();
-        onboardingpage.clickBtnLogin();
+    public void loginWithWrongPassword() {
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         loginpage.inputUsername(prop.getProperty("username"));
         loginpage.inputPassword("testerlalala");
         hideKeyboard();
         //loginpage.hideKeyboard();
         loginpage.tapBtnLogin();
-        Thread.sleep(600);
-        validatetoast.validateToastLoginFailed();
+        /*Thread.sleep(600);
+        validatetoast.validateToastLoginFailed();*/
     }
 
     @Test
     public void loginWithEmptyPassword() {
-        assertions.waitForAgreementText();
-        onboardingpage.clickBtnLogin();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         loginpage.inputUsername(prop.getProperty("username"));
         hideKeyboard();
         //loginpage.hideKeyboard();

@@ -33,6 +33,7 @@ public class AddReviewTest extends TestBase {
     private LoginPage loginpage;
     private SateliteButtonPage satelitebuttonpage;
     private AddReviewChooseProductPage addreviewChooseProductpage;
+    private CarouselPage carouselpage;
 
     public AddReviewTest(){
         super();
@@ -62,6 +63,7 @@ public class AddReviewTest extends TestBase {
         loginpage = new LoginPage();
         satelitebuttonpage = new SateliteButtonPage();
         addreviewChooseProductpage = new AddReviewChooseProductPage();
+        carouselpage = new CarouselPage();
     }
 
     @AfterMethod
@@ -72,7 +74,12 @@ public class AddReviewTest extends TestBase {
     @Test
     public void addReviewAfterSignUp(){
         //call sign up process
-        assertions.waitForAgreementText();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         onboardingpage.clickBtnSignUp();
 
         //register new user
@@ -166,7 +173,12 @@ public class AddReviewTest extends TestBase {
     @Test
     public void addReviewAfterLogin(){
         //login
-        assertions.waitForAgreementText();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("username"));
         loginpage.inputPassword(prop.getProperty("password"));
@@ -198,7 +210,12 @@ public class AddReviewTest extends TestBase {
     @Test
     public void addReviewFromPlusButtonAfterSignUp(){
         //call sign up process
-        assertions.waitForAgreementText();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         onboardingpage.clickBtnSignUp();
 
         //register new user
@@ -289,7 +306,12 @@ public class AddReviewTest extends TestBase {
     @Test
     public void addReviewFromPlusButtonAfterLogin(){
         //login
-        assertions.waitForAgreementText();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         onboardingpage.clickBtnLogin();
         loginpage.inputUsername(prop.getProperty("username"));
         loginpage.inputPassword(prop.getProperty("password"));

@@ -19,6 +19,7 @@ public class SetBeautyProfileTest extends TestBase {
     private DOBPage dobpage;
     private SkinPage skinpage;
     private HairPage hairpage;
+    private CarouselPage carouselpage;
 
 
     public SetBeautyProfileTest(){
@@ -35,6 +36,7 @@ public class SetBeautyProfileTest extends TestBase {
         dobpage = new DOBPage();
         skinpage = new SkinPage();
         hairpage = new HairPage();
+        carouselpage = new CarouselPage();
     }
 
     @AfterMethod
@@ -44,7 +46,12 @@ public class SetBeautyProfileTest extends TestBase {
 
     @Test
     public void setSkin(){
-        assertions.waitForAgreementText();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         onboardingpage.clickBtnSignUp();
 
         //register new user
@@ -52,7 +59,6 @@ public class SetBeautyProfileTest extends TestBase {
         signuppage.inputUsername(faker.internet().slug());
         signuppage.inputPassword(faker.internet().password());
         hideKeyboard();
-        //signuppage.hideKeyboard();
         signuppage.tapContinueButton();
 
         //input DOB
@@ -74,7 +80,12 @@ public class SetBeautyProfileTest extends TestBase {
 
     @Test
     public void setHairAndHijab(){
-        assertions.waitForAgreementText();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForNextButtonCarousel();
+        carouselpage.clickBtnNext();
+        assertions.waitForGetStartedButtonCarousel();
+        carouselpage.clickGetStarted();
         onboardingpage.clickBtnSignUp();
 
         //register new user
@@ -82,7 +93,6 @@ public class SetBeautyProfileTest extends TestBase {
         signuppage.inputUsername(faker.internet().slug());
         signuppage.inputPassword(faker.internet().password());
         hideKeyboard();
-        //signuppage.hideKeyboard();
         signuppage.tapContinueButton();
 
         //input DOB
